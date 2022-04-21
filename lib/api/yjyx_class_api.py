@@ -61,8 +61,6 @@ class classApi:
 		
 		# data : 表示表单格式
 		# json : 表示json格式
-		# data : 表示表单格式
-		# json : 表示json格式
 		url = f'{g_api_url_class}/{classid}'
 		res = requests.delete(url, data=payload)
 		
@@ -87,6 +85,17 @@ class classApi:
 		responseData(res)
 		return res
 	
-cs = classApi()
-cs.add_class(1,'理工1班',50)
-cs.list_class()
+	# 删除所有班级
+	def del_all_class(self):
+		res = self.list_class()
+		retObj = res.json()
+		for one in retObj['retlist']:
+			self.del_class(one['id'])
+			
+
+g_cs = classApi()
+
+if __name__ == '__main__':
+	cs = classApi()
+	# cs.add_class(1,'理工2班',88)
+	cs.list_class()

@@ -21,7 +21,8 @@ def responseData(response):
 	print(body)
 	
 	try:
-		response.json()
+		json_body = response.json()
+		print(f'\n\n----响应消息体json----\n{json_body}')
 	except:
 		print('响应消息体不是json格式！！')
 	
