@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220422_010906 =========
+  ========= 测试开始 : 20220422_020129 =========
 
 
 
@@ -10,9 +10,15 @@
 初始化 删除所有班级
 
 
->>> cases\class_management\class_management.py
+>>> cases\environment_class\
 
-* 添加班级1 - tc000001  -  2022-04-22 01:09:06
+[ suite setup ] cases\environment_class\
+创建一个班级
+
+
+>>> cases\environment_class\class_management.py
+
+* 添加班级2 - tc000002  -  2022-04-22 02:01:29
 
   [ case execution steps ]
 
@@ -24,35 +30,32 @@
 
 -- 第 2 步 -- 列出班级 
 
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加班级1 - tc000001
-case teardown fail | name 'classApi' is not defined 
+{'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '202924656787', 'studentlimit': 89, 'studentnumber': 0, 'id': 20292, 'teacherlist': []}
+  ABORT   'in <string>' requires string as left operand, not dict 
 Traceback:
-  File "cases\class_management\class_management.py", line 16, in teardown
-    classApi.del_class(retAdd['id'])
-NameError: name 'classApi' is not defined
+  File "cases\environment_class\class_management.py", line 44, in teststeps
+    CHECK_POINT('列出结果检查',expected in str(resList['retlist'][-1]))
+TypeError: 'in <string>' requires string as left operand, not dict
 
 
+[ case teardown ] 添加班级2 - tc000002
 
-  ========= 测试结束 : 20220422_010906 =========
+
+  ========= 测试结束 : 20220422_020129 =========
 
 
-  耗时    : 0.127 秒
+  耗时    : 0.231 秒
 
 
   预备执行用例数量 : 1
 
   实际执行用例数量 : 1
 
-  通过 : 1
+  通过 : 0
 
   失败 : 0
 
-  异常 : 0
+  异常 : 1
 
   套件初始化失败 : 0
 
@@ -60,4 +63,4 @@ NameError: name 'classApi' is not defined
 
   用例初始化失败 : 0
 
-  用例清除  失败 : 1
+  用例清除  失败 : 0

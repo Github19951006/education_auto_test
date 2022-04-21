@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220422_011404 =========
+  ========= 测试开始 : 20220422_020223 =========
 
 
 
@@ -12,7 +12,7 @@
 
 >>> cases\class_management\class_management.py
 
-* 添加班级1 - tc000001  -  2022-04-22 01:14:04
+* 添加班级1 - tc000001  -  2022-04-22 02:02:23
 
   [ case execution steps ]
 
@@ -32,17 +32,46 @@
 [ case teardown ] 添加班级1 - tc000001
 
 
-  ========= 测试结束 : 20220422_011404 =========
+>>> cases\environment_class\
+
+[ suite setup ] cases\environment_class\
+创建一个班级
 
 
-  耗时    : 0.163 秒
+>>> cases\environment_class\class_management.py
+
+* 添加班级2 - tc000002  -  2022-04-22 02:02:23
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 创建一个班级 
 
 
-  预备执行用例数量 : 1
+** 检查点 **  添加结果回码 ---->  通过
 
-  实际执行用例数量 : 1
 
-  通过 : 1
+-- 第 2 步 -- 列出班级 
+
+[{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '202968372415', 'studentlimit': 69, 'studentnumber': 0, 'id': 20296, 'teacherlist': []}, {'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '202978389770', 'studentlimit': 89, 'studentnumber': 0, 'id': 20297, 'teacherlist': []}]
+
+** 检查点 **  列出结果检查 ---->  通过
+
+  PASS 
+
+[ case teardown ] 添加班级2 - tc000002
+
+
+  ========= 测试结束 : 20220422_020223 =========
+
+
+  耗时    : 0.252 秒
+
+
+  预备执行用例数量 : 2
+
+  实际执行用例数量 : 2
+
+  通过 : 2
 
   失败 : 0
 

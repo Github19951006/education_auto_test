@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220422_010935 =========
+  ========= 测试开始 : 20220422_020159 =========
 
 
 
@@ -10,9 +10,15 @@
 初始化 删除所有班级
 
 
->>> cases\class_management\class_management.py
+>>> cases\environment_class\
 
-* 添加班级1 - tc000001  -  2022-04-22 01:09:35
+[ suite setup ] cases\environment_class\
+创建一个班级
+
+
+>>> cases\environment_class\class_management.py
+
+* 添加班级2 - tc000002  -  2022-04-22 02:01:59
 
   [ case execution steps ]
 
@@ -24,24 +30,19 @@
 
 -- 第 2 步 -- 列出班级 
 
+{'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '202943189973', 'studentlimit': 89, 'studentnumber': 0, 'id': 20294, 'teacherlist': []}
 
 ** 检查点 **  列出结果检查 ---->  通过
 
   PASS 
 
-[ case teardown ] 添加班级1 - tc000001
-case teardown fail | name 'retAdd' is not defined 
-Traceback:
-  File "cases\class_management\class_management.py", line 16, in teardown
-    g_cs.del_class(retAdd['id'])
-NameError: name 'retAdd' is not defined
+[ case teardown ] 添加班级2 - tc000002
 
 
+  ========= 测试结束 : 20220422_020159 =========
 
-  ========= 测试结束 : 20220422_010935 =========
 
-
-  耗时    : 0.118 秒
+  耗时    : 0.208 秒
 
 
   预备执行用例数量 : 1
@@ -60,4 +61,4 @@ NameError: name 'retAdd' is not defined
 
   用例初始化失败 : 0
 
-  用例清除  失败 : 1
+  用例清除  失败 : 0

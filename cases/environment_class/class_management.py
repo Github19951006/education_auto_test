@@ -8,8 +8,8 @@
 from hytest import *
 from lib.api.yjyx_class_api import g_cs
 
-class Case_tc000001:
-	name = '添加班级1 - tc000001'
+class Case_tc000002:
+	name = '添加班级2 - tc000002'
 	
 	# 清除方法
 	def teardown(self):
@@ -18,7 +18,7 @@ class Case_tc000001:
 	def teststeps(self):
 		# 测试步骤如下
 		STEP(1,'创建一个班级')
-		res_add_class = g_cs.add_class(4,'龙山理22班',69)
+		res_add_class = g_cs.add_class(6,'龙山理2班',89)
 		retAdd = res_add_class.json()
 		CHECK_POINT('添加结果回码',retAdd['retcode'] == 0)
 		
@@ -26,24 +26,20 @@ class Case_tc000001:
 		self.addClassId = retAdd['id']
 		
 		STEP(2, '列出班级')
-		res_list_class = g_cs.list_class(4)
+		res_list_class = g_cs.list_class(6)
 		resList = res_list_class.json()
+		INFO(resList['retlist'])
 		
 		# 预期结果
 		expected = {
-		    "gradeid": 4,
-		    "retlist": [
-		        {
-		            "name": "龙山理22班",
-		            "grade__name": "高一",
-		            "invitecode": retAdd['invitecode'],
-		            "studentlimit": 69,
-		            "studentnumber": 0,
-		            "id": retAdd['id'],
-		            "teacherlist": []
-		        }
-		    ],
-		    "retcode": 0
-		}
-		CHECK_POINT('列出结果检查', resList == expected)
+					"name": "龙山理2班",
+					"grade__name": "高三",
+					"invitecode": retAdd['invitecode'],
+					"studentlimit": 89,
+					"studentnumber": 0,
+					"id": retAdd['id'],
+					"teacherlist": []
+				}
+	
+		CHECK_POINT('列出结果检查',str(expected) in str(resList['retlist']))
 
