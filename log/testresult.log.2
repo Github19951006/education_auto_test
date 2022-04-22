@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220422_020129 =========
+  ========= 测试开始 : 20220422_020159 =========
 
 
 
@@ -18,7 +18,7 @@
 
 >>> cases\environment_class\class_management.py
 
-* 添加班级2 - tc000002  -  2022-04-22 02:01:29
+* 添加班级2 - tc000002  -  2022-04-22 02:01:59
 
   [ case execution steps ]
 
@@ -30,32 +30,30 @@
 
 -- 第 2 步 -- 列出班级 
 
-{'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '202924656787', 'studentlimit': 89, 'studentnumber': 0, 'id': 20292, 'teacherlist': []}
-  ABORT   'in <string>' requires string as left operand, not dict 
-Traceback:
-  File "cases\environment_class\class_management.py", line 44, in teststeps
-    CHECK_POINT('列出结果检查',expected in str(resList['retlist'][-1]))
-TypeError: 'in <string>' requires string as left operand, not dict
+{'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '202943189973', 'studentlimit': 89, 'studentnumber': 0, 'id': 20294, 'teacherlist': []}
 
+** 检查点 **  列出结果检查 ---->  通过
+
+  PASS 
 
 [ case teardown ] 添加班级2 - tc000002
 
 
-  ========= 测试结束 : 20220422_020129 =========
+  ========= 测试结束 : 20220422_020159 =========
 
 
-  耗时    : 0.231 秒
+  耗时    : 0.208 秒
 
 
   预备执行用例数量 : 1
 
   实际执行用例数量 : 1
 
-  通过 : 0
+  通过 : 1
 
   失败 : 0
 
-  异常 : 1
+  异常 : 0
 
   套件初始化失败 : 0
 

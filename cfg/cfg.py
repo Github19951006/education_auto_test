@@ -3,7 +3,7 @@
 @Author : 文跃锐（yuerwen）
 @University:东莞理工学院
 @Time   : 2022/04/20
-@File   :cfg.py.py
+@File   :cfg.py
 """
 # vcode 设置
 g_vcode = '00000004074389951477'
