@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220422_235252 =========
+  ========= 测试开始 : 20220423_010607 =========
 
 
 
@@ -12,7 +12,7 @@
 
 >>> cases\class_management\class_management.py
 
-* 添加班级1 - tc000001  -  2022-04-22 23:52:52
+* 添加班级1 - tc000001  -  2022-04-23 01:06:07
 
   [ case execution steps ]
 
@@ -40,7 +40,7 @@
 
 >>> cases\environment_class\class_management.py
 
-* 添加班级2 - tc000002  -  2022-04-22 23:52:52
+* 添加班级2 - tc000002  -  2022-04-23 01:06:08
 
   [ case execution steps ]
 
@@ -52,7 +52,7 @@
 
 -- 第 2 步 -- 列出班级 
 
-[{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '202981436758', 'studentlimit': 69, 'studentnumber': 0, 'id': 20298, 'teacherlist': []}, {'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '202992104820', 'studentlimit': 89, 'studentnumber': 0, 'id': 20299, 'teacherlist': []}]
+[{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203133247241', 'studentlimit': 69, 'studentnumber': 0, 'id': 20313, 'teacherlist': []}, {'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '203149177231', 'studentlimit': 89, 'studentnumber': 0, 'id': 20314, 'teacherlist': []}]
 
 ** 检查点 **  列出结果检查 ---->  通过
 
@@ -60,18 +60,37 @@
 
 [ case teardown ] 添加班级2 - tc000002
 
+* 添加班级2 - tc000003  -  2022-04-23 01:06:08
 
-  ========= 测试结束 : 20220422_235252 =========
+  [ case execution steps ]
+
+-- 第 1 步 -- 创建一个班级 
+
+{'reason': 'Traceback (most recent call last):\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 542, in addClass\n    school_class = self._addClass(name,schoolid,gradeid,studentlimit)\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 531, in _addClass\n    school_class.save()\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save\n    force_update=force_update, update_fields=update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 738, in save_base\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 822, in _save_table\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 861, in _do_insert\n    using=using, raw=raw)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 127, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 920, in _insert\n    return query.get_compiler(using=using).execute_sql(return_id)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 974, in execute_sql\n    cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__\n    six.reraise(dj_exc_type, dj_exc_value, traceback)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute\n    return self.cursor.execute(query, args)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute\n    self.errorhandler(self, exc, value)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler\n    raise errorclass, errorvalue\nIntegrityError: (1062, "Duplicate entry \'\\xe9\\xbe\\x99\\xe5\\xb1\\xb1\\xe7\\x90\\x8622\\xe7\\x8f\\xad-407-6\' for key \'name\'")\n', 'retcode': 1}
+
+** 检查点 **  添加结果回码 ---->  通过
 
 
-  耗时    : 0.795 秒
+-- 第 2 步 -- 列出班级 
+
+{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203133247241', 'studentlimit': 69, 'studentnumber': 0, 'id': 20313, 'teacherlist': []}], 'retcode': 0}
+
+** 检查点 **  列出结果检查 ---->  通过
+
+  PASS 
 
 
-  预备执行用例数量 : 2
+  ========= 测试结束 : 20220423_010608 =========
 
-  实际执行用例数量 : 2
 
-  通过 : 2
+  耗时    : 0.392 秒
+
+
+  预备执行用例数量 : 3
+
+  实际执行用例数量 : 3
+
+  通过 : 3
 
   失败 : 0
 

@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220422_185314 =========
+  ========= 测试开始 : 20220423_010422 =========
 
 
 
@@ -8,89 +8,53 @@
 
 [ suite setup ] cases\
 初始化 删除所有班级
-suite setup fail | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')) 
-Traceback:
-  File "c:\python38\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "c:\python38\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
-    httplib_response = conn.getresponse()
-  File "c:\python38\lib\http\client.py", line 1347, in getresponse
-    response.begin()
-  File "c:\python38\lib\http\client.py", line 307, in begin
-    version, status, reason = self._read_status()
-  File "c:\python38\lib\http\client.py", line 276, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-http.client.RemoteDisconnected: Remote end closed connection without response
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\python38\lib\site-packages\requests\adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "c:\python38\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
-    retries = retries.increment(
-  File "c:\python38\lib\site-packages\urllib3\util\retry.py", line 532, in increment
-    raise six.reraise(type(error), error, _stacktrace)
-  File "c:\python38\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
-    raise value.with_traceback(tb)
-  File "c:\python38\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
-    httplib_response = self._make_request(
-  File "c:\python38\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
-    six.raise_from(e, None)
-  File "<string>", line 3, in raise_from
-  File "c:\python38\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
-    httplib_response = conn.getresponse()
-  File "c:\python38\lib\http\client.py", line 1347, in getresponse
-    response.begin()
-  File "c:\python38\lib\http\client.py", line 307, in begin
-    version, status, reason = self._read_status()
-  File "c:\python38\lib\http\client.py", line 276, in _read_status
-    raise RemoteDisconnected("Remote end closed connection without"
-urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\python38\lib\site-packages\hytest\utils\runner.py", line 124, in execTest
-    try:suite_setup()
-  File "cases\__st__.py", line 6, in suite_setup
-    g_cs.del_all_class()
-  File "D:\study\AutoTest_education\lib\api\yjyx_class_api.py", line 90, in del_all_class
-    res = self.list_class()
-  File "D:\study\AutoTest_education\lib\api\yjyx_class_api.py", line 25, in list_class
-    res = requests.get(g_api_url_class, params =params)
-  File "c:\python38\lib\site-packages\requests\api.py", line 75, in get
-    return request('get', url, params=params, **kwargs)
-  File "c:\python38\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "c:\python38\lib\site-packages\requests\sessions.py", line 542, in request
-    resp = self.send(prep, **send_kwargs)
-  File "c:\python38\lib\site-packages\requests\sessions.py", line 655, in send
-    r = adapter.send(request, **kwargs)
-  File "c:\python38\lib\site-packages\requests\adapters.py", line 498, in send
-    raise ConnectionError(err, request=request)
-requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 
 
+>>> cases\environment_class\
 
-  ========= 测试结束 : 20220422_185319 =========
+[ suite setup ] cases\environment_class\
+创建一个班级
 
 
-  耗时    : 5.021 秒
+>>> cases\environment_class\class_management.py
+
+* 添加班级2 - tc000003  -  2022-04-23 01:04:23
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 创建一个班级 
+
+{'reason': 'Traceback (most recent call last):\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 542, in addClass\n    school_class = self._addClass(name,schoolid,gradeid,studentlimit)\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 531, in _addClass\n    school_class.save()\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save\n    force_update=force_update, update_fields=update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 738, in save_base\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 822, in _save_table\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 861, in _do_insert\n    using=using, raw=raw)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 127, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 920, in _insert\n    return query.get_compiler(using=using).execute_sql(return_id)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 974, in execute_sql\n    cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__\n    six.reraise(dj_exc_type, dj_exc_value, traceback)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute\n    return self.cursor.execute(query, args)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute\n    self.errorhandler(self, exc, value)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler\n    raise errorclass, errorvalue\nIntegrityError: (1062, "Duplicate entry \'\\xe9\\xbe\\x99\\xe5\\xb1\\xb1\\xe7\\x90\\x8622\\xe7\\x8f\\xad-407-6\' for key \'name\'")\n', 'retcode': 1}
+
+** 检查点 **  添加结果回码 ---->  通过
 
 
-  预备执行用例数量 : 2
+-- 第 2 步 -- 列出班级 
 
-  实际执行用例数量 : 0
+{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203102032731', 'studentlimit': 69, 'studentnumber': 0, 'id': 20310, 'teacherlist': []}], 'retcode': 0}
 
-  通过 : 0
+** 检查点 **  列出结果检查 ---->  通过
+
+  PASS 
+
+
+  ========= 测试结束 : 20220423_010423 =========
+
+
+  耗时    : 0.300 秒
+
+
+  预备执行用例数量 : 1
+
+  实际执行用例数量 : 1
+
+  通过 : 1
 
   失败 : 0
 
   异常 : 0
 
-  套件初始化失败 : 1
+  套件初始化失败 : 0
 
   套件清除  失败 : 0
 

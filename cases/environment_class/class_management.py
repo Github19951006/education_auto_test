@@ -43,3 +43,41 @@ class Case_tc000002:
 	
 		CHECK_POINT('列出结果检查',str(expected) in str(resList['retlist']))
 
+
+class Case_tc000003:
+	name = '添加班级2 - tc000003'
+	
+	def teststeps(self):
+		# 测试步骤如下
+		STEP(1, '创建一个班级')
+		res_add_class = g_cs.add_class(6, '龙山理22班', 44)
+		retAdd = res_add_class.json()
+		INFO(retAdd)
+		CHECK_POINT('添加结果回码', retAdd['retcode'] == 1)
+		
+		STEP(2, '列出班级')
+		res_list_class = g_cs.list_class(6)
+		resList = res_list_class.json()
+		INFO(resList)
+		
+		# 调用全局共享 数据
+		invitecode = GSTORE['invitecode']
+		cid = GSTORE['id']
+		# 预期结果
+		expected = {
+			"gradeid": 6,
+			"retlist": [
+				{
+					"name": "龙山理22班",
+					"grade__name": "高三",
+					"invitecode": invitecode,
+					"studentlimit": 69,
+					"studentnumber": 0,
+					"id": cid,
+					"teacherlist": []
+				}
+			],
+			"retcode": 0
+		}
+		CHECK_POINT('列出结果检查', resList == expected)
+
