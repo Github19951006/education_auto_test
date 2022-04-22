@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/log/log_20220422_185314.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220422_235252.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cfg/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/environment_class/class_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/environment_class/class_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/environment_class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,6 +105,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -114,6 +122,8 @@
       <workItem from="1650463902968" duration="11149000" />
       <workItem from="1650556237277" duration="7819000" />
       <workItem from="1650601670054" duration="71000" />
+      <workItem from="1650625363767" duration="677000" />
+      <workItem from="1650642532563" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>

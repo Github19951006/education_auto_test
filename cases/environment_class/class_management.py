@@ -3,7 +3,7 @@
 @Author : 文跃锐（yuerwen）
 @University:东莞理工学院
 @Time   : 2022/04/22
-@File   :class_management.py.py
+@File   :class_management.py
 """
 from hytest import *
 from lib.api.yjyx_class_api import g_cs
