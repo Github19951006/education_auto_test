@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/log/log_20220422_185314.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220422_235252.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/environment_class/class_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/environment_class/class_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
       <workItem from="1650556237277" duration="7819000" />
       <workItem from="1650601670054" duration="71000" />
       <workItem from="1650625363767" duration="677000" />
-      <workItem from="1650642532563" duration="999000" />
+      <workItem from="1650642532563" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -167,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650564168467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1650644441552</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650644441552</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,10 +224,11 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1650564185246">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state x="235" y="376" key="Vcs.Push.Dialog.v2" timestamp="1650644455332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
+    <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650644455332" />
     <state x="-988" y="92" width="896" height="1696" key="dock-window-1" timestamp="1650467948580">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
