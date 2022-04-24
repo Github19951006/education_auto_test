@@ -5,6 +5,7 @@
 @Time   : 2022/04/20
 @File   :yjyx_class_api.py.py
 """
+from hytest import *
 import requests
 from cfg.cfg import *
 from lib.response.response import *
@@ -43,7 +44,6 @@ class classApi:
 		# data : 表示表单格式
 		# json : 表示json格式
 		res = requests.post(g_api_url_class,data=payload)
-		
 		# 响应消息
 		responseData(res)
 		return res
@@ -62,7 +62,7 @@ class classApi:
 		# data : 表示表单格式
 		# json : 表示json格式
 		url = f'{g_api_url_class}/{classid}'
-		res = requests.delete(url, data=payload)
+		res = requests.put(url, data=payload)
 		
 		# 响应消息
 		responseData(res)

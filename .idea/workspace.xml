@@ -20,7 +20,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_004045.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_005122.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_005215.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_005337.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_005711.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_005941.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_010103.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_010333.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_010422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_010607.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_012601.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_013128.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_013355.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_013541.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_014008.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_014042.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_150402.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_150551.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_150623.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_150701.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151013.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151048.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151133.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151203.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151247.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151458.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151632.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151846.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_151942.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_152034.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_152108.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_152147.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_152257.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_153144.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_153226.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_153410.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_153759.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_153931.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_153943.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_154022.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_154050.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_154224.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_155753.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_155918.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_155931.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_160016.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_160248.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_160256.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_161122.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_161136.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_161214.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_162803.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_164707.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_164739.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_164818.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_164849.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_164929.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_165017.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_165054.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_165139.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_165307.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_165333.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170337.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170359.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170408.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170455.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170507.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170544.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_170631.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_171115.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220423_171212.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +116,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/cases/class_management/class_management.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/environment_class/class_management.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="281PFOUpEmO9nFZ03y1xAwZflGj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,21 +133,44 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Auto_bysms_API" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\AutoTest_education\cases\environment_class\teacher_management" />
+      <recent name="D:\study\AutoTest_education\cases" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\AutoTest_education\cases\environment_class" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\AutoTest_education\cases" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.yjyx_teacher_api">
+    <configuration name="__st__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest_education" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases/environment_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cases/environment_class/__st__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yjyx_class_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoTest_education" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,13 +193,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yjyx_teacher_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest_education" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yjyx_teacher_api" />
         <item itemvalue="Python.yjyx_class_api" />
+        <item itemvalue="Python.__st__" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
     <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
@@ -117,7 +242,10 @@
       <workItem from="1650556237277" duration="7819000" />
       <workItem from="1650601670054" duration="71000" />
       <workItem from="1650625363767" duration="677000" />
-      <workItem from="1650642532563" duration="1632000" />
+      <workItem from="1650642532563" duration="5732000" />
+      <workItem from="1650697020362" duration="8407000" />
+      <workItem from="1650715635400" duration="2433000" />
+      <workItem from="1650814292922" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -168,7 +296,35 @@
       <option name="project" value="LOCAL" />
       <updated>1650644441552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1650645113608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650645113608</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Initial commit">
+      <created>1650647263990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650647263990</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <created>1650705162866</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650705162866</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Initial commit">
+      <created>1650816484520</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650816484520</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,10 +348,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-760" y="681" key="FileChooserDialogImpl" timestamp="1650561710537">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state x="-760" y="489" key="FileChooserDialogImpl" timestamp="1650816575085">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state x="-760" y="489" key="FileChooserDialogImpl/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816575085" />
     <state x="-760" y="681" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650561710537" />
+    <state x="569" y="381" key="FileChooserDialogImpl/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650645956736" />
     <state x="-698" y="837" key="Github.ShareDialog" timestamp="1650474392139">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -204,31 +362,44 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-710" y="642" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650474397218" />
-    <state width="518" height="524" key="GridCell.Tab.0.bottom" timestamp="1650560391657">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state width="770" height="523" key="GridCell.Tab.0.bottom" timestamp="1650816576787">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state width="770" height="523" key="GridCell.Tab.0.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816576787" />
     <state width="518" height="524" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
-    <state width="518" height="524" key="GridCell.Tab.0.center" timestamp="1650560391657">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state width="937" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
+    <state width="770" height="523" key="GridCell.Tab.0.center" timestamp="1650816576787">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state width="770" height="523" key="GridCell.Tab.0.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816576787" />
     <state width="518" height="524" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
-    <state width="518" height="524" key="GridCell.Tab.0.left" timestamp="1650560391657">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state width="937" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
+    <state width="770" height="523" key="GridCell.Tab.0.left" timestamp="1650816576787">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state width="770" height="523" key="GridCell.Tab.0.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816576787" />
     <state width="518" height="524" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
-    <state width="518" height="524" key="GridCell.Tab.0.right" timestamp="1650560391657">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state width="937" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
+    <state width="770" height="523" key="GridCell.Tab.0.right" timestamp="1650816576787">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state width="770" height="523" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816576787" />
     <state width="518" height="524" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
+    <state width="937" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1650647507214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647507214" />
     <state x="-905" y="700" key="MultipleFileMergeDialog" timestamp="1650557554779">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="235" y="376" key="Vcs.Push.Dialog.v2" timestamp="1650644455332">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1650816543845">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816543845" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
-    <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650644455332" />
+    <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-988" y="92" width="896" height="1696" key="dock-window-1" timestamp="1650467948580">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -243,6 +414,8 @@
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650558405310" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_class_api.coverage" NAME="yjyx_class_api Coverage Results" MODIFIED="1650556677985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
+    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_teacher_api.coverage" NAME="yjyx_teacher_api Coverage Results" MODIFIED="1650815454542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
+    <SUITE FILE_PATH="coverage/AutoTest_education$__st__.coverage" NAME="__st__ Coverage Results" MODIFIED="1650646739800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/environment_class" />
+    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_class_api.coverage" NAME="yjyx_class_api Coverage Results" MODIFIED="1650815022659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
   </component>
 </project>
