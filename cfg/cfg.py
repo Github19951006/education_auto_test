@@ -14,5 +14,5 @@ g_api_server = 'http://192.168.3.22'
 
 g_api_url_class = g_api_server + '/api/3school/school_classes'
 
-
+g_api_url_teacher = g_api_server + '/api/3school/teachers'
 

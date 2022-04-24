@@ -274,8 +274,7 @@ class Case_tc000082:
 		# 调用全局共享 数据
 		invitecode = GSTORE['invitecode']
 		cid = GSTORE['id']
-		
-		# 测试步骤如下
+
 		# 测试步骤如下
 		STEP(1, '创建一个班级')
 		res_add_class = g_cs.add_class(6, '莞工计科1班', 99)
