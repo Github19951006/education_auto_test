@@ -12,7 +12,7 @@ from lib.response.response import *
 class teacherApi:
 	
 	# 列出老师
-	def list_teacher(self,subjectid = None):
+	def list_teachers(self,subjectid = None):
 		# 请求体内容
 		params = {
 			'vcode': g_vcode,
@@ -28,8 +28,8 @@ class teacherApi:
 		responseData(res)
 		return res
 		
-		# 添加老师
-	def add_teacher(self, username, realname,
+	# 添加老师
+	def add_teachers(self, username, realname,
 	                subjectid,classlist,phonenumber,
 	                email,idcardnumber):
 		
@@ -54,7 +54,7 @@ class teacherApi:
 		return res
 		
 	# 修改老师
-	def modify_class(self, teacherid, realname, subjectid,
+	def modify_teachers(self, teacherid, realname, subjectid,
 	 classlist, phonenumber, email, idcardnumber):
 		
 		# 请求体内容
@@ -79,7 +79,7 @@ class teacherApi:
 		return res
 	
 	# 删除老师
-	def del_class(self, teacherid):
+	def del_teachers(self, teacherid):
 		
 		# 请求体内容
 		payload = {
@@ -96,12 +96,14 @@ class teacherApi:
 		return res
 	
 	# 删除所有老师
-	def del_all_class(self):
-		res = self.list_teacher()
+	def del_all_teachers(self):
+		res = self.list_teachers()
 		retObj = res.json()
 		for one in retObj['retlist']:
-			self.del_class(one['id'])
+			self.del_teachers(one['id'])
 
 # 实例一个老师实例对象
 gs_teacher = teacherApi()
+if __name__ == '__main__':
+    gs_teacher.list_teachers()
 
