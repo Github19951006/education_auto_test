@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220423_171212 =========
+  ========= 测试开始 : 20220425_020604 =========
 
 
 
@@ -10,204 +10,35 @@
 初始化 删除所有班级
 
 
->>> cases\class_management\class_management.py
-
-* 添加班级1 - tc000001  -  2022-04-23 17:12:12
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个班级 
-
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 2 步 -- 列出班级 
-
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加班级1 - tc000001
-
-
 >>> cases\environment_class\
 
 [ suite setup ] cases\environment_class\
 创建一个班级
-20337
-
-
->>> cases\environment_class\class_management.py
-
-* 添加班级2 - tc000002  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个班级 
-
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 2 步 -- 列出班级 
-
-[{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203377777492', 'studentlimit': 69, 'studentnumber': 0, 'id': 20337, 'teacherlist': []}, {'name': '龙山理2班', 'grade__name': '高三', 'invitecode': '203387675981', 'studentlimit': 89, 'studentnumber': 0, 'id': 20338, 'teacherlist': []}]
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加班级2 - tc000002
-
-* 添加班级2 - tc000003  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个班级 
-
-{'reason': 'Traceback (most recent call last):\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 542, in addClass\n    school_class = self._addClass(name,schoolid,gradeid,studentlimit)\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 531, in _addClass\n    school_class.save()\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save\n    force_update=force_update, update_fields=update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 738, in save_base\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 822, in _save_table\n    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 861, in _do_insert\n    using=using, raw=raw)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/manager.py", line 127, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 920, in _insert\n    return query.get_compiler(using=using).execute_sql(return_id)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 974, in execute_sql\n    cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__\n    six.reraise(dj_exc_type, dj_exc_value, traceback)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute\n    return self.cursor.execute(query, args)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute\n    self.errorhandler(self, exc, value)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler\n    raise errorclass, errorvalue\nIntegrityError: (1062, "Duplicate entry \'\\xe9\\xbe\\x99\\xe5\\xb1\\xb1\\xe7\\x90\\x8622\\xe7\\x8f\\xad-407-6\' for key \'name\'")\n', 'retcode': 1}
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 2 步 -- 列出班级 
-
-{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203377777492', 'studentlimit': 69, 'studentnumber': 0, 'id': 20337, 'teacherlist': []}], 'retcode': 0}
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-* 添加班级2 - tc000051  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 修改班级名字 
-
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 2 步 -- 列出班级 
-
-{'gradeid': 6, 'retlist': [{'name': '修改龙山理22班', 'grade__name': '高三', 'invitecode': '203377777492', 'studentlimit': 69, 'studentnumber': 0, 'id': 20337, 'teacherlist': []}], 'retcode': 0}
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加班级2 - tc000051
-
-* 添加班级2 - tc000052  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个班级 
-
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 2 步 -- 修改班级名字 
-
-{'reason': '未知错误:Traceback (most recent call last):\n  File "/home/yjyx/yijiao_src/yijiao_main/services/datamodel/schoolclass/models.py", line 612, in modifyClass\n    school_class.save()\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 710, in save\n    force_update=force_update, update_fields=update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 738, in save_base\n    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 803, in _save_table\n    forced_update)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 853, in _do_update\n    return filtered._update(values) > 0\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/query.py", line 580, in _update\n    return query.get_compiler(self.db).execute_sql(CURSOR)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1062, in execute_sql\n    cursor = super(SQLUpdateCompiler, self).execute_sql(result_type)\n  File "/usr/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 840, in execute_sql\n    cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__\n    six.reraise(dj_exc_type, dj_exc_value, traceback)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute\n    return self.cursor.execute(sql, params)\n  File "/usr/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 124, in execute\n    return self.cursor.execute(query, args)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute\n    self.errorhandler(self, exc, value)\n  File "/usr/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler\n    raise errorclass, errorvalue\nIntegrityError: (1062, "Duplicate entry \'\\xe9\\xbe\\x99\\xe5\\xb1\\xb1\\xe7\\x90\\x8622\\xe7\\x8f\\xad-407-6\' for key \'name\'")\n', 'retcode': 10000}
-
-** 检查点 **  添加结果回码 ---->  !! 不通过!!
-
-  FAIL    
+suite setup fail | 'id' 
 Traceback:
-  File "cases\environment_class\class_management.py", line 154, in teststeps
-    CHECK_POINT('添加结果回码', retcode == 1)
-  File "c:\python38\lib\site-packages\hytest\common.py", line 58, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  File "cases\environment_class\__st__.py", line 7, in suite_setup
+    INFO(res.json()['id'])
+KeyError: 'id'
 
 
-[ case teardown ] 添加班级2 - tc000052
 
-* 添加班级2 - tc000053  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 修改不存在的班级ID号 
-
-{'reason': 'id 为`3413`的班级不存在', 'retcode': 404}
-
-** 检查点 **  添加结果回码 ---->  通过
+  ========= 测试结束 : 20220425_020604 =========
 
 
--- 第 3 步 -- 列出班级 
-
-{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203377777492', 'studentlimit': 69, 'studentnumber': 0, 'id': 20337, 'teacherlist': []}], 'retcode': 0}
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-* 添加班级2 - tc000081  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 删除不存在的班级ID号 
-
-{'reason': 'id 为`3413`的班级不存在', 'retcode': 404}
-
-** 检查点 **  添加结果回码 ---->  通过
+  耗时    : 0.134 秒
 
 
--- 第 3 步 -- 列出班级 
+  预备执行用例数量 : 1
 
-{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203377777492', 'studentlimit': 69, 'studentnumber': 0, 'id': 20337, 'teacherlist': []}], 'retcode': 0}
+  实际执行用例数量 : 0
 
-** 检查点 **  列出结果检查 ---->  通过
+  通过 : 0
 
-  PASS 
-
-* 添加班级2 - tc000082  -  2022-04-23 17:12:13
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个班级 
-
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 2 步 -- 删除存在的班级ID号 
-
-{'retcode': 0}
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 3 步 -- 列出班级 
-
-{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203377777492', 'studentlimit': 69, 'studentnumber': 0, 'id': 20337, 'teacherlist': []}], 'retcode': 0}
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-
-  ========= 测试结束 : 20220423_171214 =========
-
-
-  耗时    : 1.198 秒
-
-
-  预备执行用例数量 : 8
-
-  实际执行用例数量 : 8
-
-  通过 : 7
-
-  失败 : 1
+  失败 : 0
 
   异常 : 0
 
-  套件初始化失败 : 0
+  套件初始化失败 : 1
 
   套件清除  失败 : 0
 

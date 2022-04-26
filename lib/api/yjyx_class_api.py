@@ -92,7 +92,7 @@ class classApi:
 		for one in retObj['retlist']:
 			self.del_class(one['id'])
 			
-
+# 实例一个班级api实例对象
 g_cs = classApi()
 
 if __name__ == '__main__':

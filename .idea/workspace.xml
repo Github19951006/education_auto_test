@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/log/log_20220425_015318.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +44,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/cases/class_management/class_management.py" root0="SKIP_INSPECTION" />
@@ -63,12 +72,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\AutoTest_education\cases\environment_class\teacher_management" />
-      <recent name="D:\study\AutoTest_education\cases" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\AutoTest_education\cases\environment_class" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\AutoTest_education\cases\environment_class" />
+      <recent name="D:\study\AutoTest_education\cases\environment_class\teacher_management" />
+      <recent name="D:\study\AutoTest_education\cases" />
     </key>
   </component>
   <component name="RunManager" selected="Python.yjyx_teacher_api">
@@ -85,7 +95,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cases/environment_class/__st__.py" />
+      <option name="SCRIPT_NAME" value="D:\study\AutoTest_education\cases\environment_class\__st__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,6 +180,11 @@
       <workItem from="1650715635400" duration="2433000" />
       <workItem from="1650814292922" duration="1877000" />
       <workItem from="1650816732440" duration="419000" />
+      <workItem from="1650817294687" duration="1907000" />
+      <workItem from="1650863703295" duration="2000" />
+      <workItem from="1650874401133" duration="3000" />
+      <workItem from="1650894663227" duration="57000" />
+      <workItem from="1650987721338" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -337,16 +352,16 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1650816891168">
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1650817420683">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816891168" />
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650817420683" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
-    <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650816878461">
+    <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816878461" />
+    <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650817401946" />
     <state x="-988" y="92" width="896" height="1696" key="dock-window-1" timestamp="1650467948580">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>

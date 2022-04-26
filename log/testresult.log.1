@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220423_171115 =========
+  ========= 测试开始 : 20220425_020330 =========
 
 
 
@@ -10,16 +10,9 @@
 初始化 删除所有班级
 
 
->>> cases\environment_class\
+>>> cases\class_management\class_management.py
 
-[ suite setup ] cases\environment_class\
-创建一个班级
-20334
-
-
->>> cases\environment_class\class_management.py
-
-* 添加班级2 - tc000082  -  2022-04-23 17:11:16
+* 添加班级1 - tc000001  -  2022-04-25 02:03:30
 
   [ case execution steps ]
 
@@ -29,31 +22,35 @@
 ** 检查点 **  添加结果回码 ---->  通过
 
 
--- 第 2 步 -- 删除存在的班级ID号 
+-- 第 2 步 -- 列出班级 
 
-{'retcode': 0}
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 3 步 -- 列出班级 
-
-{'gradeid': 6, 'retlist': [{'name': '龙山理22班', 'grade__name': '高三', 'invitecode': '203347929290', 'studentlimit': 69, 'studentnumber': 0, 'id': 20334, 'teacherlist': []}], 'retcode': 0}
 
 ** 检查点 **  列出结果检查 ---->  通过
 
   PASS 
 
-[ case teardown ] 添加班级2 - tc000082
+[ case teardown ] 添加班级1 - tc000001
 
 
-  ========= 测试结束 : 20220423_171116 =========
+>>> cases\environment_class\
+
+[ suite setup ] cases\environment_class\
+创建一个班级
+suite setup fail | 'id' 
+Traceback:
+  File "cases\environment_class\__st__.py", line 7, in suite_setup
+    INFO(res.json()['id'])
+KeyError: 'id'
 
 
-  耗时    : 0.431 秒
+
+  ========= 测试结束 : 20220425_020330 =========
 
 
-  预备执行用例数量 : 1
+  耗时    : 0.215 秒
+
+
+  预备执行用例数量 : 9
 
   实际执行用例数量 : 1
 
@@ -63,7 +60,7 @@
 
   异常 : 0
 
-  套件初始化失败 : 0
+  套件初始化失败 : 1
 
   套件清除  失败 : 0
 

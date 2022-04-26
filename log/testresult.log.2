@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220423_170631 =========
+  ========= 测试开始 : 20220425_015318 =========
 
 
 
@@ -14,70 +14,31 @@
 
 [ suite setup ] cases\environment_class\
 创建一个班级
-20332
-
-
->>> cases\environment_class\class_management.py
-
-* 添加班级2 - tc000082  -  2022-04-23 17:06:31
-
-  [ case execution steps ]
-
--- 第 1 步 -- 删除存在的班级ID号 
-
-{'retcode': 0}
-
-** 检查点 **  添加结果回码 ---->  通过
-
-
--- 第 3 步 -- 列出班级 
-
-{'gradeid': 6, 'retlist': [], 'retcode': 0}
-
-** 检查点 **  列出结果检查 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加班级2 - tc000082
-
-* 添加班级2 - tc000083  -  2022-04-23 17:06:31
-
-  [ case execution steps ]
-20332
-
--- 第 1 步 -- 修改班级名字 
-
-{'reason': 'id 为`20332`的班级不存在', 'retcode': 404}
-
-** 检查点 **  添加结果回码 ---->  !! 不通过!!
-
-  FAIL    
+suite setup fail | 'id' 
 Traceback:
-  File "cases\environment_class\class_management.py", line 315, in teststeps
-    CHECK_POINT('添加结果回码', retcode == 0)
-  File "c:\python38\lib\site-packages\hytest\common.py", line 58, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  File "cases\environment_class\__st__.py", line 7, in suite_setup
+    INFO(res.json()['id'])
+KeyError: 'id'
 
 
 
-  ========= 测试结束 : 20220423_170631 =========
+  ========= 测试结束 : 20220425_015318 =========
 
 
-  耗时    : 0.405 秒
+  耗时    : 0.147 秒
 
 
-  预备执行用例数量 : 2
+  预备执行用例数量 : 1
 
-  实际执行用例数量 : 2
+  实际执行用例数量 : 0
 
-  通过 : 1
+  通过 : 0
 
-  失败 : 1
+  失败 : 0
 
   异常 : 0
 
-  套件初始化失败 : 0
+  套件初始化失败 : 1
 
   套件清除  失败 : 0
 

@@ -11,8 +11,12 @@ g_vcode = '00000004074389951477'
 # 服务地址
 g_api_server = 'http://192.168.3.22'
 
-
+# 班级URL
 g_api_url_class = g_api_server + '/api/3school/school_classes'
 
+# 老师url
 g_api_url_teacher = g_api_server + '/api/3school/teachers'
+
+# 学生url
+g_api_url_students = g_api_server + '/api/3school/students'
 

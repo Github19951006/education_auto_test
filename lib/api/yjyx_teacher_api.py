@@ -53,15 +53,20 @@ class teacherApi:
 		responseData(res)
 		return res
 		
-	# 修改班级
-	def modify_class(self, teacherid, realname, studentlimit):
+	# 修改老师
+	def modify_class(self, teacherid, realname, subjectid,
+	 classlist, phonenumber, email, idcardnumber):
 		
 		# 请求体内容
 		payload = {
 			'vcode': g_vcode,
 			'action': 'modify',
 			'realname': realname,
-			'studentlimit': studentlimit
+			'subjectid':subjectid,
+			'classlist':classlist,
+			'phonenumber':phonenumber,
+			'email':email,
+			'idcardnumber':idcardnumber
 		}
 		
 		# data : 表示表单格式
@@ -73,8 +78,8 @@ class teacherApi:
 		responseData(res)
 		return res
 	
-	# 删除班级
-	def del_class(self, classid):
+	# 删除老师
+	def del_class(self, teacherid):
 		
 		# 请求体内容
 		payload = {
@@ -83,23 +88,20 @@ class teacherApi:
 		
 		# data : 表示表单格式
 		# json : 表示json格式
-		url = f'{g_api_url_teacher}/{classid}'
+		url = f'{g_api_url_teacher}/{teacherid}'
 		res = requests.delete(url, data=payload)
 		
 		# 响应消息
 		responseData(res)
 		return res
 	
-	# 删除所有班级
+	# 删除所有老师
 	def del_all_class(self):
-		res = self.list_class()
+		res = self.list_teacher()
 		retObj = res.json()
 		for one in retObj['retlist']:
 			self.del_class(one['id'])
-			
-if __name__ == '__main__':
-    gs_teacher = teacherApi()
-    gs_teacher.add_teacher('yuerwen','文跃锐',
-                           1,'[{"id":20337}]',13451813456,'jcysdf@123.com',
-                           3209251983090987899)
-    gs_teacher.list_teacher()
+
+# 实例一个老师实例对象
+gs_teacher = teacherApi()
+
