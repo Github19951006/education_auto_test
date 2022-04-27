@@ -105,5 +105,10 @@ class teacherApi:
 # 实例一个老师实例对象
 gs_teacher = teacherApi()
 if __name__ == '__main__':
-    gs_teacher.list_teachers()
+	gs_teacher.add_teachers(
+		'yuerLi','李牛','1','[{"id":20250}]',
+		'13451813456','jcysdf@123.com',
+		'3209251983090987899')
+	gs_teacher.list_teachers()
+
 
