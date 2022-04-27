@@ -11,4 +11,4 @@ from lib.api.yjyx_teacher_api import *
 def suite_setup():
 	INFO('删除所有老师')
 	gs_teacher.del_all_teachers()
-	
+#

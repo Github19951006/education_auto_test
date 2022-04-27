@@ -5,7 +5,7 @@
 @Time   : 2022/04/20
 @File   :yjyx_teacher_api.py
 """
-import requests
+import requests,json
 from cfg.cfg import *
 from lib.response.response import *
 
@@ -30,17 +30,20 @@ class teacherApi:
 		
 	# 添加老师
 	def add_teachers(self, username, realname,
-	                subjectid,classlist,phonenumber,
+	                subjectid,class_list_id,phonenumber,
 	                email,idcardnumber):
 		
-		# 请求体内容
+		id_list = class_list_id.split(',')
+		classlist = [{"id":int(cid.strip())} for cid in id_list]
+		
+		# 请求体内容f
 		payload = {
 			'vcode': g_vcode,
 			'action': 'add',
 			'username':username,
 			'realname':realname,
 			'subjectid':subjectid,
-			'classlist':classlist,
+			'classlist':json.dumps(classlist),
 			'phonenumber':phonenumber,
 			'email':email,
 			'idcardnumber':idcardnumber

@@ -93,9 +93,10 @@ class classApi:
 			self.del_class(one['id'])
 			
 # 实例一个班级api实例对象
-g_cs = classApi()
+gs_class = classApi()
 
 if __name__ == '__main__':
-	cs = classApi()
-	# cs.add_class(1,'理工2班',88)
-	cs.list_class()
+	pass
+	# cs = classApi()
+	# # cs.add_class(1,'理工2班',88)
+	# cs.list_class()
