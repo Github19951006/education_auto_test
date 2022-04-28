@@ -17,22 +17,30 @@ class Case_tc001001:
         gs_teacher.del_teachers(self.addTeacherId)
  
     def teststeps(self):
-        teacher_cid = GSTORE['id']
-        INFO(teacher_cid)
+        cid = GSTORE['id']
+        INFO(cid)
         # 测试步骤如下
         STEP(1,'添加一个老师')
         res_add_teacher = gs_teacher.add_teachers('yuerwang','python老师',
-                           1,str(teacher_cid),'13451813456','jcysdf@123.com',
+                           1,str(cid),'13451813456','jcysdf@123.com',
                            '3209251983090987899')
-        retAdd = res_add_teacher.json()
-        CHECK_POINT('检查返回码信息',retAdd['retcode'] == 0)
+        ret_add_teacher_json_obj = res_add_teacher.json()
+        CHECK_POINT('检查返回码信息',ret_add_teacher_json_obj['retcode'] == 0)
         
-        INFO(retAdd['id'])
+        INFO(ret_add_teacher_json_obj['id'])
 
         # ** 保存id，存到self中，self是实例对象都能访问到的东西
-        self.addTeacherId = retAdd['id']
+        self.addTeacherId = ret_add_teacher_json_obj['id']
 
         STEP(2,'列出老师信息')
-        ret = gs_teacher.list_teachers()
-        INFO(ret.json()['retlist'])
+        res_list_teacher = gs_teacher.list_teachers()
+        res_list_teacher_json = res_list_teacher.json()
+        # 获取返回老师id
+        res_list_teacher_id = res_list_teacher_json['retlist'][0]['id']
+        INFO(res_list_teacher_id)
+        
+        CHECK_POINT('检查添加老师返回的ID信息',self.addTeacherId
+                    == res_list_teacher_id)
+
+        
        
