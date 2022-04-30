@@ -19,6 +19,11 @@ def suite_setup():
 
 	ret_add_teacher_json = res_add_teacher.json()
 	teacher_id = ret_add_teacher_json['id']
+	INFO(teacher_id)
+	
+	# res_list_teacher = gs_teacher.list_teachers()
+	# res_list_teacher_json = res_list_teacher.json()
+	# INFO(res_list_teacher_json)
 	
 	# 存储 全局共享 数据
 	GSTORE['teacher_id'] = teacher_id

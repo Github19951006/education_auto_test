@@ -58,7 +58,10 @@ class teacherApi:
 		
 	# 修改老师
 	def modify_teachers(self, teacherid, realname, subjectid,
-	 classlist, phonenumber, email, idcardnumber):
+	 class_list_id, phonenumber, email, idcardnumber):
+		
+		id_list = class_list_id.split(',')
+		classlist = [{"id": int(cid.strip())} for cid in id_list]
 		
 		# 请求体内容
 		payload = {
@@ -66,7 +69,7 @@ class teacherApi:
 			'action': 'modify',
 			'realname': realname,
 			'subjectid':subjectid,
-			'classlist':classlist,
+			'classlist':json.dumps(classlist),
 			'phonenumber':phonenumber,
 			'email':email,
 			'idcardnumber':idcardnumber
