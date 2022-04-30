@@ -20,15 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220430_230223.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/__st__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/__st__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220430_231454.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220430_232807.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220430_232905.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220430_233053.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220430_233607.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220430_233743.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_002817.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_003632.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_003807.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_003912.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_004135.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_004225.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_004359.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_004451.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_004526.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005250.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005353.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005419.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005509.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005609.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005818.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005905.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005947.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_005958.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_010034.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_010344.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220501_010511.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/__st__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +97,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,6 +112,8 @@
       <recent name="D:\study\AutoTest_education\cases\in_class_environment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\teacher_管理" />
       <recent name="D:\study\AutoTest_education\cases\environment_class" />
     </key>
@@ -193,7 +225,7 @@
       <workItem from="1650992745430" duration="557000" />
       <workItem from="1651072843049" duration="9790000" />
       <workItem from="1651160062972" duration="5529000" />
-      <workItem from="1651319252591" duration="11240000" />
+      <workItem from="1651319252591" duration="18184000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -335,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651320804042</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Initial commit">
+      <created>1651331474622</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651331474622</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,28 +417,28 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-710" y="642" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650474397218" />
-    <state width="1037" height="530" key="GridCell.Tab.0.bottom" timestamp="1651319736748">
+    <state width="1037" height="530" key="GridCell.Tab.0.bottom" timestamp="1651332485211">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="530" key="GridCell.Tab.0.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651319736748" />
+    <state width="1037" height="530" key="GridCell.Tab.0.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651332485211" />
     <state width="518" height="524" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
-    <state width="1037" height="530" key="GridCell.Tab.0.center" timestamp="1651319736747">
+    <state width="1037" height="530" key="GridCell.Tab.0.center" timestamp="1651332485211">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="530" key="GridCell.Tab.0.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651319736747" />
+    <state width="1037" height="530" key="GridCell.Tab.0.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651332485211" />
     <state width="518" height="524" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
-    <state width="1037" height="530" key="GridCell.Tab.0.left" timestamp="1651319736747">
+    <state width="1037" height="530" key="GridCell.Tab.0.left" timestamp="1651332485210">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="530" key="GridCell.Tab.0.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651319736747" />
+    <state width="1037" height="530" key="GridCell.Tab.0.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651332485210" />
     <state width="518" height="524" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
-    <state width="1037" height="530" key="GridCell.Tab.0.right" timestamp="1651319736747">
+    <state width="1037" height="530" key="GridCell.Tab.0.right" timestamp="1651332485211">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="530" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651319736747" />
+    <state width="1037" height="530" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651332485211" />
     <state width="518" height="524" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
     <state x="-840" y="262" key="IDE.errors.dialog" timestamp="1650816778800">
@@ -411,10 +450,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651320813974">
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651331520169">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651320813974" />
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651331520169" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
@@ -429,13 +468,25 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-988" y="92" width="896" height="1696" key="dock-window-2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650467948580" />
-    <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1650558405310">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state x="-877" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1651334614099">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state x="-877" y="243" width="672" height="678" key="search.everywhere.popup/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651334614099" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650558405310" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_teacher_api.coverage" NAME="yjyx_teacher_api Coverage Results" MODIFIED="1651319481535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
+    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_teacher_api.coverage" NAME="yjyx_teacher_api Coverage Results" MODIFIED="1651332454867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
     <SUITE FILE_PATH="coverage/AutoTest_education$__st__.coverage" NAME="__st__ Coverage Results" MODIFIED="1650646739800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/environment_class" />
     <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_class_api.coverage" NAME="yjyx_class_api Coverage Results" MODIFIED="1651165693685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
   </component>

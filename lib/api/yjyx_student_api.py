@@ -21,9 +21,6 @@ class studentApi:
 			'action' : 'search_with_pagenation'
 		}
 	
-		if gradeid is not None:
-			params['gradeid'] = gradeid
-			
 		res = requests.get(g_api_url_students, params =params)
 		
 		# 响应消息
@@ -90,13 +87,13 @@ class studentApi:
 	
 	# 删除所有学生
 	def del_all_students(self):
-		res = self.list_students()
-		retObj = res.json()
-		for one in retObj['retlist']:
-			self.del_students(one['id'])
+		result_list_students = self.list_students()
+		students_obj = result_list_students.json()
+		for student_obj in students_obj['retlist']:
+			self.del_students(student_obj['id'])
 			
 
-g_student = studentApi()
+gs_student = studentApi()
 
 if __name__ == '__main__':
     pass

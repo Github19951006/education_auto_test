@@ -34,15 +34,18 @@ class teacherApi:
 	                email,idcardnumber):
 		
 		id_list = class_list_id.split(',')
-		classlist = [{"id":int(cid.strip())} for cid in id_list]
-		
-		# 请求体内容f
+		# 结果还是数据对象
+		classlist = [{'id':int(cid.strip())} for cid in id_list]
+		print(classlist)
+		# 请求体内容
 		payload = {
 			'vcode': g_vcode,
 			'action': 'add',
 			'username':username,
 			'realname':realname,
 			'subjectid':subjectid,
+			# 要的是json格式的字符串
+			# dumps 方法将数据对象序列化为 json格式的字符串
 			'classlist':json.dumps(classlist),
 			'phonenumber':phonenumber,
 			'email':email,
@@ -112,7 +115,7 @@ class teacherApi:
 gs_teacher = teacherApi()
 if __name__ == '__main__':
 	gs_teacher.add_teachers(
-		'yue','李牛22','5','20276',
+		'yue','李牛22','5','20276,20277',
 		'134518156','jcysdf@123.com',
 		'3209251983090987899')
 	gs_teacher.list_teachers()
