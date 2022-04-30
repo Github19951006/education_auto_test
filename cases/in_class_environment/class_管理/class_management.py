@@ -47,7 +47,7 @@ class Case_tc000002:
 
 
 class Case_tc000003:
-	name = '添加班级2 - tc000003'
+	name = '添加班级3（存在同年级的同名班级） - tc000003'
 	
 	def teststeps(self):
 		# 测试步骤如下
@@ -86,7 +86,7 @@ class Case_tc000003:
 
 
 class Case_tc000051:
-	name = '添加班级2 - tc000051'
+	name = '修改班级1 - tc000051'
 	
 	def teardown(self):
 		cid = GSTORE['id']
@@ -130,7 +130,7 @@ class Case_tc000051:
 
 
 class Case_tc000052:
-	name = '添加班级2 - tc000052'
+	name = '修改班级2（已有的班级同名） - tc000052'
 	
 	# 清除方法
 	def teardown(self):
@@ -193,7 +193,7 @@ class Case_tc000052:
 
 
 class Case_tc000053:
-	name = '添加班级2 - tc000053'
+	name = '修改班级3（ID为一个不存在的班级ID号） - tc000053'
 	
 	def teststeps(self):
 		# 调用全局共享 数据
@@ -233,7 +233,7 @@ class Case_tc000053:
 
 
 class Case_tc000081:
-	name = '添加班级2 - tc000081'
+	name = '删除班级1 - tc000081'
 	
 	def teststeps(self):
 		# 调用全局共享 数据
@@ -272,7 +272,7 @@ class Case_tc000081:
 		CHECK_POINT('列出结果检查', resList == expected)
 
 class Case_tc000082:
-	name = '添加班级2 - tc000082'
+	name = '删除班级2 - tc000082'
 	
 	def teststeps(self):
 		# 调用全局共享 数据

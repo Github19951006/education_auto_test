@@ -10,7 +10,7 @@ from hytest import *
 from lib.api.yjyx_teacher_api import gs_teacher
 
 class Case_tc001001:
-    name = '用例名 - tc001001'
+    name = '添加老师1 - tc001001'
     
     # 清除方法
     def teardown(self):
@@ -21,7 +21,7 @@ class Case_tc001001:
         INFO(cid)
         # 测试步骤如下
         STEP(1,'添加一个老师')
-        res_add_teacher = gs_teacher.add_teachers('yuerwang','python老师',
+        res_add_teacher = gs_teacher.add_teachers('yuerwen','python老师',
                            1,str(cid),'13451813456','jcysdf@123.com',
                            '3209251983090987899')
         ret_add_teacher_json_obj = res_add_teacher.json()

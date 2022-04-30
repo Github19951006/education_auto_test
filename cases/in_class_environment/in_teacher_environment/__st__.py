@@ -10,6 +10,8 @@ from lib.api.yjyx_teacher_api import gs_teacher
 
 # 初始化
 def suite_setup():
+	
+	INFO('添加一个老师')
 	cid = GSTORE['id']
 	res_add_teacher = gs_teacher.add_teachers('new_teacher', '初始化老师',
 	                        1, str(cid), '13451813456', 'jcysdf@123.com',

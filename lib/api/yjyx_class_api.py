@@ -98,5 +98,5 @@ gs_class = classApi()
 if __name__ == '__main__':
 	pass
 	# cs = classApi()
-	# # cs.add_class(1,'理工2班',88)
-	# cs.list_class()
+	gs_class.add_class(1,'理工2班',88)
+	gs_class.list_class()
