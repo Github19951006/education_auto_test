@@ -23,8 +23,10 @@ class Case_tc002002:
 			'sanLi','李三',6,cid,'13451813456')
 		
 		retcode = result_add_student.json()['retcode']
+		
 		# ** 保存id，存到self中，self是实例对象都能访问到的东西
 		self.studentID = result_add_student.json()['id']
+		
 		CHECK_POINT('检查返回创建成功码',retcode == 0)
 		
 		STEP(2,'列出学生信息')

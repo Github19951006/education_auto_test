@@ -20,3 +20,16 @@ g_api_url_teacher = g_api_server + '/api/3school/teachers'
 # 学生url
 g_api_url_students = g_api_server + '/api/3school/students'
 
+
+# 学科id定义 (常量一般用大写)
+# 初中
+SUBJECT_ID_JUNIOR_MATH    = 1
+SUBJECT_ID_JUNIOR_SCIENCE = 5
+SUBJECT_ID_JUNIOR_ENGLISH = 11
+SUBJECT_ID_JUNIOR_PE      = 12
+
+# 高中
+subject_id_high_math
+SUBJECT_ID_HIGH_CHINESE = 13
+SUBJECT_ID_HIGH_MATH    = 14
+
