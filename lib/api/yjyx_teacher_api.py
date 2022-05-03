@@ -115,7 +115,7 @@ class teacherApi:
 gs_teacher = teacherApi()
 if __name__ == '__main__':
 	gs_teacher.add_teachers(
-		'yue','李牛22','5','20276,20277',
+		'yue','李牛22','5','20524',
 		'134518156','jcysdf@123.com',
 		'3209251983090987899')
 	gs_teacher.list_teachers()
