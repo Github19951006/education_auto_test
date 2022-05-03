@@ -6,6 +6,7 @@
 @File   :class_management.py.py
 """
 from hytest import *
+from cfg.cfg import *
 from lib.api.yjyx_class_api import *
 
 class Case_tc000001:
@@ -18,7 +19,7 @@ class Case_tc000001:
 	def teststeps(self):
 		# 测试步骤如下
 		STEP(1,'创建一个班级')
-		res_add_class = gs_class.add_class(4,'龙山理22班',69)
+		res_add_class = gs_class.add_class(SENIOR_ONE_GRADE_ID,'龙山理22班',69)
 		retAdd = res_add_class.json()
 		CHECK_POINT('添加结果回码',retAdd['retcode'] == 0)
 		

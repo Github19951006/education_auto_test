@@ -20,14 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/log/log_20220501_011533.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220501_174838.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220503_195507.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220503_195708.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/class_管理/class_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/class_管理/class_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/__st__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/student_管理/student_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/teacher_管理/teacher_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/teacher_管理/teacher_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/no_class_environment/class_管理/class_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/no_class_environment/class_管理/class_management.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cfg/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/cfg.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +78,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Auto_hytest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -197,7 +207,8 @@
       <workItem from="1651072843049" duration="9790000" />
       <workItem from="1651160062972" duration="5529000" />
       <workItem from="1651319252591" duration="19691000" />
-      <workItem from="1651415110302" duration="2570000" />
+      <workItem from="1651415110302" duration="3346000" />
+      <workItem from="1651561808703" duration="4179000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -360,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651338828995</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Initial commit">
+      <created>1651417705349</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1651417705349</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,10 +406,10 @@
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
     <state x="-658" y="610" key="#Notifications/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816787215" />
-    <state x="-760" y="489" key="FileChooserDialogImpl" timestamp="1651320309002">
+    <state x="-760" y="489" key="FileChooserDialogImpl" timestamp="1651561970843">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-760" y="489" key="FileChooserDialogImpl/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651320309002" />
+    <state x="-760" y="489" key="FileChooserDialogImpl/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651561970843" />
     <state x="-760" y="681" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650561710537" />
     <state x="569" y="381" key="FileChooserDialogImpl/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650645956736" />
     <state x="-698" y="645" key="Github.ShareDialog" timestamp="1650988241917">
@@ -427,19 +445,19 @@
     <state width="1037" height="530" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651332485211" />
     <state width="518" height="524" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
-    <state x="-840" y="262" key="IDE.errors.dialog" timestamp="1650816778800">
+    <state x="-840" y="262" key="IDE.errors.dialog" timestamp="1651562629996">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-840" y="262" key="IDE.errors.dialog/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816778800" />
+    <state x="-840" y="262" key="IDE.errors.dialog/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651562629996" />
     <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647507214" />
     <state x="-905" y="700" key="MultipleFileMergeDialog" timestamp="1650557554779">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651338838199">
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651417712549">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651338838199" />
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651417712549" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
@@ -459,17 +477,6 @@
     </state>
     <state x="-877" y="243" width="672" height="678" key="search.everywhere.popup/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651334614099" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650558405310" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_teacher_api.coverage" NAME="yjyx_teacher_api Coverage Results" MODIFIED="1651332454867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />

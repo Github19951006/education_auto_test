@@ -13,6 +13,6 @@ def suite_setup():
 	STEP(1, '创建一个学生')
 	cid = GSTORE['id']
 	result_add_student = gs_student.add_students(
-		'wuwang', '王五', 6, cid, '1345183456')
+		'wuwang', '王五', SENIOR_THREE_GRADE_ID, cid, '1345183456')
 	
 	GSTORE['student_id'] = result_add_student.json()['id']

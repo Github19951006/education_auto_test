@@ -7,6 +7,7 @@
 """
 
 from hytest import *
+from cfg.cfg import *
 from lib.api.yjyx_teacher_api import gs_teacher
 from lib.api.yjyx_class_api import gs_class
 
@@ -36,7 +37,8 @@ class Case_tc001082:
 		# 测试步骤如下
 		STEP(1, '添加一个老师')
 		res_add_teacher = gs_teacher.add_teachers('add_yuer', '创建老师',
-		                                          5, str(cid), '1345181', 'jcysd@123.com',
+		                                          SUBJECT_ID_JUNIOR_SCIENCE, str(cid),
+		                                          '1345181', 'jcysd@123.com',
 		                                          '3209251983007899')
 		ret_add_teacher_json_obj = res_add_teacher.json()
 		INFO(ret_add_teacher_json_obj['id'])

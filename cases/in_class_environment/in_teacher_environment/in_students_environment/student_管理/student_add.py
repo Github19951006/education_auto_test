@@ -20,7 +20,7 @@ class Case_tc002002:
 		STEP(1,'创建一个学生')
 		cid = GSTORE['id']
 		result_add_student = gs_student.add_students(
-			'sanLi','李三',6,cid,'13451813456')
+			'sanLi','李三',SENIOR_THREE_GRADE_ID,cid,'13451813456')
 		
 		retcode = result_add_student.json()['retcode']
 		

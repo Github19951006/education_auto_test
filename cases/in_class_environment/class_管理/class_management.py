@@ -6,6 +6,7 @@
 @File   :class_management.py
 """
 from hytest import *
+from cfg.cfg import *
 from lib.api.yjyx_class_api import *
 
 force_tags = ['班级管理']
@@ -20,7 +21,7 @@ class Case_tc000002:
 	def teststeps(self):
 		# 测试步骤如下
 		STEP(1,'创建一个班级')
-		res_add_class = gs_class.add_class(6,'龙山理7班',89)
+		res_add_class = gs_class.add_class(SENIOR_THREE_GRADE_ID,'龙山理7班',89)
 		ret_jsonObj = res_add_class.json()
 		CHECK_POINT('添加结果回码',ret_jsonObj['retcode'] == 0)
 		
@@ -52,13 +53,14 @@ class Case_tc000003:
 	def teststeps(self):
 		# 测试步骤如下
 		STEP(1, '创建一个班级')
-		res_add_class = gs_class.add_class(6, '2015龙山理22班', 44)
+		res_add_class = gs_class.add_class(SENIOR_THREE_GRADE_ID,
+		                                   '2015龙山理22班', 44)
 		ret_jsonObj = res_add_class.json()
 		INFO(ret_jsonObj)
 		CHECK_POINT('添加结果回码', ret_jsonObj['retcode'] == 1)
 		
 		STEP(2, '列出班级')
-		res_list_class = gs_class.list_class(6)
+		res_list_class = gs_class.list_class(SENIOR_THREE_GRADE_ID)
 		resList_jsonObj = res_list_class.json()
 		INFO(resList_jsonObj)
 		
@@ -106,7 +108,7 @@ class Case_tc000051:
 		#
 
 		STEP(2, '列出班级')
-		res_list_class = gs_class.list_class(6)
+		res_list_class = gs_class.list_class(SENIOR_THREE_GRADE_ID)
 		resList_jsonObj = res_list_class.json()
 		INFO(resList_jsonObj)
 		
@@ -143,7 +145,8 @@ class Case_tc000052:
 		
 		# 测试步骤如下
 		STEP(1, '创建一个班级')
-		res_add_class = gs_class.add_class(6, '莞工计科1班', 99)
+		res_add_class = gs_class.add_class(SENIOR_THREE_GRADE_ID,
+		                                   '莞工计科1班', 99)
 		retAdd = res_add_class.json()
 		CHECK_POINT('添加结果回码', retAdd['retcode'] == 0)
 		
@@ -151,7 +154,8 @@ class Case_tc000052:
 		self.addClassId = retAdd['id']
 		
 		STEP(2, '修改班级名字')
-		res_modif_class = gs_class.modify_class(self.addClassId, '2015龙山理22班', 99)
+		res_modif_class = gs_class.modify_class(self.addClassId,
+		                                        '2015龙山理22班', 99)
 		retObj = res_modif_class.json()
 		retcode = retObj['retcode']
 		INFO(retObj)
@@ -159,7 +163,7 @@ class Case_tc000052:
 		
 		
 		STEP(3, '列出班级')
-		res_list_class = gs_class.list_class(6)
+		res_list_class = gs_class.list_class(SENIOR_THREE_GRADE_ID)
 		resList = res_list_class.json()
 		INFO(resList)
 		
@@ -209,7 +213,7 @@ class Case_tc000053:
 		CHECK_POINT('添加结果回码', retcode == 404)
 		
 		STEP(3, '列出班级')
-		res_list_class = gs_class.list_class(6)
+		res_list_class = gs_class.list_class(SENIOR_THREE_GRADE_ID)
 		resList = res_list_class.json()
 		INFO(resList)
 		
@@ -249,7 +253,7 @@ class Case_tc000081:
 		CHECK_POINT('添加结果回码', retcode == 404)
 		
 		STEP(3, '列出班级')
-		res_list_class = gs_class.list_class(6)
+		res_list_class = gs_class.list_class(SENIOR_THREE_GRADE_ID)
 		resList = res_list_class.json()
 		INFO(resList)
 		
@@ -281,7 +285,8 @@ class Case_tc000082:
 
 		# 测试步骤如下
 		STEP(1, '创建一个班级')
-		res_add_class = gs_class.add_class(6, '莞工计科1班', 99)
+		res_add_class = gs_class.add_class(SENIOR_THREE_GRADE_ID,
+		                                   '莞工计科1班', 99)
 		retAdd = res_add_class.json()
 		CHECK_POINT('添加结果回码', retAdd['retcode'] == 0)
 		
@@ -293,7 +298,7 @@ class Case_tc000082:
 		CHECK_POINT('添加结果回码', retcode == 0)
 		
 		STEP(3, '列出班级')
-		res_list_class = gs_class.list_class(6)
+		res_list_class = gs_class.list_class(SENIOR_THREE_GRADE_ID)
 		resList = res_list_class.json()
 		INFO(resList)
 		

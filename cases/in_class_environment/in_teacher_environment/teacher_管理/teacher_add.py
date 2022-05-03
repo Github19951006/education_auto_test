@@ -7,6 +7,7 @@
 """
 
 from hytest import *
+from cfg.cfg import *
 from lib.api.yjyx_teacher_api import gs_teacher
 
 
@@ -23,7 +24,8 @@ class Case_tc001002:
 		# 测试步骤如下
 		STEP(1, '添加一个老师')
 		res_add_teacher = gs_teacher.add_teachers('new_yuer', '不存在同登录名的老师',
-		                                          5, str(cid), '134518136', 'jcysdf@123.com',
+		                                          SUBJECT_ID_JUNIOR_SCIENCE, str(cid),
+		                                          '134518136', 'jcysdf@123.com',
 		                                          '32092519830907899')
 		ret_add_teacher_json_obj = res_add_teacher.json()
 		CHECK_POINT('检查返回码信息', ret_add_teacher_json_obj['retcode'] == 0)
@@ -54,7 +56,8 @@ class Case_tc001003:
 		# 测试步骤如下
 		STEP(1, '添加一个老师')
 		res_add_teacher = gs_teacher.add_teachers('new_teacher', '系统中存在同登录名的老师',
-		                                          5, str(cid), '13451136', 'jcysd@123.com',
+		                                          SUBJECT_ID_JUNIOR_SCIENCE, str(cid),
+		                                          '13451136', 'jcysd@123.com',
 		                                          '32092519830907899')
 		ret_add_teacher_json_obj = res_add_teacher.json()
 		INFO(ret_add_teacher_json_obj)
