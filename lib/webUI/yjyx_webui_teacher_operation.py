@@ -19,7 +19,13 @@ class TeacherOperation:
 		:param password: 密码
 		:return: 没有返回值
 		'''
-		self.web_driver = webdriver.Chrome()
+		# self.web_driver = webdriver.Chrome()
+		# self.web_driver.implicitly_wait(5)
+		# self.web_driver.get(g_web_url_teacher)
+		
+		options = webdriver.ChromeOptions()
+		options.add_experimental_option('excludeSwitches', ['enable-automation', 'enable-logging'])
+		self.web_driver = webdriver.Chrome(options=options)
 		self.web_driver.implicitly_wait(5)
 		self.web_driver.get(g_web_url_teacher)
 		
