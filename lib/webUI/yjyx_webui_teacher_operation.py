@@ -10,6 +10,9 @@ from selenium.webdriver.common.by import By
 from cfg.cfg import *
 import time
 from hytest import *
+from selenium.webdriver.common.action_chains import ActionChains
+
+
 class TeacherOperation:
 	
 	# 教师登录
@@ -51,15 +54,56 @@ class TeacherOperation:
 		
 		return [info_element.text for info_element in info_elements]
 	
+	
+	def get_class_student_info(self):
+		
+		'''
+		获取学生班级信息
+		:return: getList_class_student_text 返回学生列表信息
+		'''
+		# 鼠标移动到此处
+		my_action = ActionChains(self.web_driver)
+		elems_main_menu_a = self.web_driver.find_elements(By.CSS_SELECTOR,
+		                                                  '.topbar-main .main-menu li > a')
+		my_action.move_to_element(elems_main_menu_a[-1]).perform()
+		
+		# 点击班级情况
+		self.web_driver.find_element(By.CSS_SELECTOR,'.main-menu .menu-title').click()
+		# 点击班级学生
+		getList_class_students = self.web_driver.find_elements(By.CSS_SELECTOR,
+		                                                       '.ng-scope .panel')
+		getList_class_students[-1].find_element(By.CSS_SELECTOR, '.panel-heading').click()
+	
+		# 等待加载列表信息
+		# 经验：不加载的情况下报错 StaleElementReferenceException
+		time.sleep(1)
+		try:
+			getList_class_student_text = getList_class_students[-1].find_element(By.CSS_SELECTOR,
+                                                             '.panel-body > .ng-scope').text
+		except:
+			print('加载不到列表信息')
+		
+		return getList_class_student_text
+		
+	
 	def close_chrome(self):
 		'''
 		关闭浏览器
-		:return:
+		:return:没有
 		'''
 		self.web_driver.close()
 		
+	def web_driver_refresh(self):
+		'''
+		刷新方法浏览器
+		:return: 没有
+		'''
+		self.web_driver.implicitly_wait(5)
+		self.web_driver.refresh()
+		
 teacher_operation = TeacherOperation()
 if __name__ == '__main__':
-	teacher_operation.teacher_login('yue')
-	infoList_text = teacher_operation.get_home_page_info()
-	print(infoList_text)
+	teacher_operation.teacher_login('jcyrss','sdfsdf5%')
+	time.sleep(2)
+	teacher_operation.get_class_student_info()
+	
