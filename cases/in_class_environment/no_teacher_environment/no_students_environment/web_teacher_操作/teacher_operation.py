@@ -29,14 +29,16 @@ class Case_tc005001:
 		                                          '13553896530', 'yuerwen@123.com',
 		                                          '32092519830907899')
 		ret_add_teacher_json_obj = res_add_teacher.json()
+		
+		# ** 保存id，存到self中，self是实例对象都能访问到的东西
 		self.addTeacherId = ret_add_teacher_json_obj['id']
 		CHECK_POINT('检查返回码信息', ret_add_teacher_json_obj['retcode'] == 0)
 		
 		STEP(2, '老师登录 web系统')
 		teacher_operation.teacher_login('web_yuer')
 		info_list = teacher_operation.get_home_page_info()
-		
 		expected = ['白月学院00002', '文跃锐', '初中数学', '0', '0', '0']
 		CHECK_POINT('检查首页信息',expected == info_list)
+		teacher_operation.close_chrome() # 关闭浏览器
 		
 		

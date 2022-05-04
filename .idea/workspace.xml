@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/log/log_20220504_093519.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220504_094513.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220504_094613.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/cfg/cfg.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" root0="SKIP_INSPECTION" />
   </component>
@@ -216,7 +225,8 @@
       <workItem from="1651160062972" duration="5529000" />
       <workItem from="1651319252591" duration="19691000" />
       <workItem from="1651415110302" duration="3346000" />
-      <workItem from="1651561808703" duration="12345000" />
+      <workItem from="1651561808703" duration="13261000" />
+      <workItem from="1651629045821" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -407,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651591331441</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Initial commit">
+      <created>1651591848233</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651591848233</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

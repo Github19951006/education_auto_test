@@ -6,7 +6,8 @@
 @File   :__st__.py.py
 """
 from lib.api.yjyx_student_api import *
-
+from lib.webUI.yjyx_webui_teacher_operation import *
+from selenium import webdriver
 
 def suite_setup():
 	# 依赖关系：必须先删除该班级中所有的学生和老师，才能删除班级。

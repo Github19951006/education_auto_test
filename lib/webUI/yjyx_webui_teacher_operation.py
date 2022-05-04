@@ -9,6 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from cfg.cfg import *
 import time
+from hytest import *
 class TeacherOperation:
 	
 	# 教师登录
@@ -49,6 +50,13 @@ class TeacherOperation:
 		                             '#home_div .ng-binding')
 		
 		return [info_element.text for info_element in info_elements]
+	
+	def close_chrome(self):
+		'''
+		关闭浏览器
+		:return:
+		'''
+		self.web_driver.close()
 		
 teacher_operation = TeacherOperation()
 if __name__ == '__main__':
