@@ -93,5 +93,5 @@ student_operation = StudentOperation()
 if __name__ == '__main__':
 	student_operation.student_login('jcyrss','sdfsdf5%')
 	time.sleep(2)
-	teacher_operation.get_class_student_info()
+	
 	
