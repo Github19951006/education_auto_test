@@ -41,10 +41,10 @@ class Case_tc005001:
 	def teststeps(self):
 		
 		# 测试步骤如下
-		info_list = teacher_operation.get_home_page_info()
-		INFO(info_list)
+		home_page_info_list = teacher_operation.get_home_page_info()
+		INFO(home_page_info_list)
 		expected = ['白月学院00002', '老师数学老师-文跃锐', '高中数学', '0', '0', '0']
-		CHECK_POINT('检查首页信息',expected == info_list)
+		CHECK_POINT('检查首页信息',expected == home_page_info_list)
 		
 		STEP(3,'点击 班级学生 菜单')
 		class_student_info = teacher_operation.get_class_student_info()
@@ -70,12 +70,11 @@ class Case_tc005002:
 	def teststeps(self):
 		
 		# 测试步骤如下
-	
 		STEP(1, '检查首页信息')
-		info_list = teacher_operation.get_home_page_info()
-		INFO(info_list)
+		home_page_info_list = teacher_operation.get_home_page_info()
+		INFO(home_page_info_list)
 		expected = ['白月学院00002', '老师数学老师-文跃锐', '高中数学', '0', '0', '0']
-		CHECK_POINT('检查首页信息', expected == info_list)
+		CHECK_POINT('检查首页信息', expected == home_page_info_list)
 		
 		STEP(2, '点击 班级学生 菜单')
 		teacher_operation.web_driver_refresh()

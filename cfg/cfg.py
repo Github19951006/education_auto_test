@@ -16,10 +16,13 @@ g_api_url_class = g_api_server + '/api/3school/school_classes'
 
 # 老师url
 g_api_url_teacher = g_api_server + '/api/3school/teachers'
-
+# 老师web登录地址
 g_web_url_teacher = g_api_server + '/teacher/login/login.html'
+
 # 学生url
 g_api_url_students = g_api_server + '/api/3school/students'
+# 学生web登录地址
+g_web_url_students = g_api_server + '/student/login/login.html'
 
 
 # 学科id定义 (常量一般用大写)

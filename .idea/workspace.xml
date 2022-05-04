@@ -20,40 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_223518.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_224004.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_224125.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_224357.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_224459.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_224906.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_225022.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_225705.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_225951.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_230912.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_230955.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_231216.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_231642.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_231812.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_231919.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_232106.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_232223.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_232300.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_233257.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_233434.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_233741.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_233844.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_234135.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_234416.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_234608.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_234802.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_234952.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220504_235712.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/student_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/webUI/yjyx_webui_student_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_002548.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_002610.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_002850.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_003122.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_005315.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_005459.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220505_005903.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/cfg.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/webUI/yjyx_webui_student_operation.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" root0="SKIP_INSPECTION" />
   </component>
@@ -95,26 +78,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/webUI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment\no_students_environment" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\teacher_管理" />
-      <recent name="D:\study\AutoTest_education\cases\environment_class" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment\teacher_管理" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\class_管理" />
       <recent name="D:\study\AutoTest_education\cases\no_class_environment\class_管理" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\AutoTest_education\lib\webUI" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment\no_students_environment" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\teacher_管理" />
     </key>
   </component>
   <component name="RunManager" selected="Python.yjyx_webui_teacher_operation">
@@ -250,7 +233,7 @@
       <workItem from="1651319252591" duration="19691000" />
       <workItem from="1651415110302" duration="3346000" />
       <workItem from="1651561808703" duration="13261000" />
-      <workItem from="1651629045821" duration="16067000" />
+      <workItem from="1651629045821" duration="19998000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -455,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651629481545</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Initial commit">
+      <created>1651680216501</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651680216501</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,10 +537,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651629487714">
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651680232514">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651629487714" />
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651680232514" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
