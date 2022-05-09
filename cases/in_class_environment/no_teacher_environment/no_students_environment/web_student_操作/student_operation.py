@@ -104,16 +104,16 @@ class Case_StuModif00x:
 			'para': ['student_yuer', 'password12345', 'password12345', '用户密码修改成功，点击确定，重新登录']
 		},
 		{
-			'name': '学生登录 修改密码包含特殊字符 - UI-StuModify005',
-			'para': ['student_yuer', '888%$@.,!', '888%$@.,!', '用户密码修改成功，点击确定，重新登录']
-		},
-		{
 			'name': '学生登录 修改密码为原密码一致 - UI-StuModify006',
 			'para': ['student_yuer', '888888', '888888', '用户密码修改成功，点击确定，重新登录']
+		},
+		{
+			'name': '学生登录 修改密码包含特殊字符 - UI-StuModify005',
+			'para': ['student_yuer', '888%$@.,!', '888%$@.,!', '用户密码修改成功，点击确定，重新登录']
 		}
 	]
 
-	# 清除方法  备注有问题
+	# 清除方法
 	def teardown(self):
 		# 取出参数(变量解包)
 		username, password, confirm_password, tips_info = self.para

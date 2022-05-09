@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220509_010337 =========
+  ========= 测试开始 : 20220509_234825 =========
 
 
 
@@ -16,7 +16,7 @@
 
 [ suite setup ] cases\in_class_environment\
 创建一个班级
-20805
+20247
 
 
 >>> cases\in_class_environment\no_teacher_environment\
@@ -38,94 +38,176 @@
 
 >>> cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py
 
-* 学生登录  当前密码为空 - UI-StuModify001  -  2022-05-09 01:03:37
-
-[ case setup ] 学生登录  当前密码为空 - UI-StuModify001
+* 学生登录 修改密码为19位 - UI-StuModify001  -  2022-05-09 23:48:26
 
   [ case execution steps ]
 
--- 第 1 步 -- 修改学生密码 
-
-  ABORT   list index out of range 
-Traceback:
-  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 236, in teststeps
-    student_operation.modify_student_password(old_password, password, confirm_password)
-  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 145, in modify_student_password
-    my_action.move_to_element(elems_main_menu_a[-1]).perform()
-IndexError: list index out of range
+-- 第 1 步 -- 登录学生系统 
 
 
-* 学生登录 修改密码为空 - UI-StuModify002  -  2022-05-09 01:03:49
-
-[ case setup ] 学生登录 修改密码为空 - UI-StuModify002
-
-  [ case execution steps ]
-
--- 第 1 步 -- 修改学生密码 
-
-  ABORT   list index out of range 
-Traceback:
-  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 236, in teststeps
-    student_operation.modify_student_password(old_password, password, confirm_password)
-  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 145, in modify_student_password
-    my_action.move_to_element(elems_main_menu_a[-1]).perform()
-IndexError: list index out of range
+-- 第 2 步 -- 修改学生密码 
 
 
-* 学生登录 确认密码为空 - UI-StuModify003  -  2022-05-09 01:03:56
+-- 第 3 步 -- 获取提示信息 
 
-[ case setup ] 学生登录 确认密码为空 - UI-StuModify003
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+
+-- 第 4 步 -- 重新登录学生系统 
+
+
+-- 第 5 步 -- 修改学生密码 
+
+  PASS 
+
+[ case teardown ] 学生登录 修改密码为19位 - UI-StuModify001
+
+* 学生登录  修改密码为20位 - UI-StuModify002  -  2022-05-09 23:49:54
 
   [ case execution steps ]
 
--- 第 1 步 -- 修改学生密码 
-
-  ABORT   list index out of range 
-Traceback:
-  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 236, in teststeps
-    student_operation.modify_student_password(old_password, password, confirm_password)
-  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 145, in modify_student_password
-    my_action.move_to_element(elems_main_menu_a[-1]).perform()
-IndexError: list index out of range
+-- 第 1 步 -- 登录学生系统 
 
 
-* 学生登录  修改密码长度为21位 - UI-StuModify004  -  2022-05-09 01:04:04
+-- 第 2 步 -- 修改学生密码 
 
-[ case setup ] 学生登录  修改密码长度为21位 - UI-StuModify004
+
+-- 第 3 步 -- 获取提示信息 
+
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+
+-- 第 4 步 -- 重新登录学生系统 
+
+
+-- 第 5 步 -- 修改学生密码 
+
+  PASS 
+
+[ case teardown ] 学生登录  修改密码为20位 - UI-StuModify002
+
+* 学生登录 修改密码包含英文 - UI-StuModify003  -  2022-05-09 23:51:22
 
   [ case execution steps ]
 
--- 第 1 步 -- 修改学生密码 
+-- 第 1 步 -- 登录学生系统 
 
-  ABORT   list index out of range 
-Traceback:
-  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 236, in teststeps
-    student_operation.modify_student_password(old_password, password, confirm_password)
-  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 145, in modify_student_password
-    my_action.move_to_element(elems_main_menu_a[-1]).perform()
-IndexError: list index out of range
 
+-- 第 2 步 -- 修改学生密码 
+
+
+-- 第 3 步 -- 获取提示信息 
+
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+
+-- 第 4 步 -- 重新登录学生系统 
+
+
+-- 第 5 步 -- 修改学生密码 
+
+  PASS 
+
+[ case teardown ] 学生登录 修改密码包含英文 - UI-StuModify003
+
+* 学生登录 修改密码包含英文和数字 - UI-StuModify004  -  2022-05-09 23:52:47
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 登录学生系统 
+
+
+-- 第 2 步 -- 修改学生密码 
+
+
+-- 第 3 步 -- 获取提示信息 
+
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+
+-- 第 4 步 -- 重新登录学生系统 
+
+
+-- 第 5 步 -- 修改学生密码 
+
+  PASS 
+
+[ case teardown ] 学生登录 修改密码包含英文和数字 - UI-StuModify004
+
+* 学生登录 修改密码包含特殊字符 - UI-StuModify005  -  2022-05-09 23:54:12
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 登录学生系统 
+
+
+-- 第 2 步 -- 修改学生密码 
+
+
+-- 第 3 步 -- 获取提示信息 
+
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+
+-- 第 4 步 -- 重新登录学生系统 
+
+
+-- 第 5 步 -- 修改学生密码 
+
+  PASS 
+
+[ case teardown ] 学生登录 修改密码包含特殊字符 - UI-StuModify005
+
+* 学生登录 修改密码为原密码一致 - UI-StuModify006  -  2022-05-09 23:55:39
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 登录学生系统 
+
+
+-- 第 2 步 -- 修改学生密码 
+
+
+-- 第 3 步 -- 获取提示信息 
+
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+
+-- 第 4 步 -- 重新登录学生系统 
+
+
+-- 第 5 步 -- 修改学生密码 
+
+  PASS 
+
+[ case teardown ] 学生登录 修改密码为原密码一致 - UI-StuModify006
 
 [ suite teardown ] cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\
 
 [ suite teardown ] cases\in_class_environment\
 
 
-  ========= 测试结束 : 20220509_010411 =========
+  ========= 测试结束 : 20220509_235706 =========
 
 
-  耗时    : 34.297 秒
+  耗时    : 521.663 秒
 
 
-  预备执行用例数量 : 4
+  预备执行用例数量 : 6
 
-  实际执行用例数量 : 4
+  实际执行用例数量 : 6
 
-  通过 : 0
+  通过 : 6
 
   失败 : 0
 
-  异常 : 4
+  异常 : 0
 
   套件初始化失败 : 0
 
