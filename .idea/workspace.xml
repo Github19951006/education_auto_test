@@ -20,7 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/class_管理/class_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/class_管理/class_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/student_管理/student_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/no_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/student_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/student_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/teacher_管理/teacher_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/teacher_管理/teacher_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/no_class_environment/class_管理/class_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/no_class_environment/class_管理/class_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/response/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/response/response.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/webUI/yjyx_webui_student_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webUI/yjyx_webui_student_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +66,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/cases/no_class_environment/class_管理/class_management.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/class_管理/class_management.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cfg/cfg.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/webUI/yjyx_webui_student_operation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cfg/cfg.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_del.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/webUI/yjyx_webui_teacher_operation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_teacher_操作/teacher_operation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/no_class_environment/class_管理/class_management.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="281PFOUpEmO9nFZ03y1xAwZflGj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -218,7 +246,12 @@
       <workItem from="1651319252591" duration="19691000" />
       <workItem from="1651415110302" duration="3346000" />
       <workItem from="1651561808703" duration="13261000" />
-      <workItem from="1651629045821" duration="20109000" />
+      <workItem from="1651629045821" duration="20299000" />
+      <workItem from="1652024635697" duration="33000" />
+      <workItem from="1652024734308" duration="72000" />
+      <workItem from="1652024879491" duration="3272000" />
+      <workItem from="1652028306515" duration="947000" />
+      <workItem from="1652110554893" duration="1270000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -437,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651683945931</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Initial commit">
+      <created>1651684008887</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651684008887</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,46 +520,46 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-710" y="642" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650474397218" />
-    <state width="1037" height="825" key="GridCell.Tab.0.bottom" timestamp="1651671188613">
+    <state width="1037" height="684" key="GridCell.Tab.0.bottom" timestamp="1651684184849">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="825" key="GridCell.Tab.0.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651671188613" />
+    <state width="1037" height="684" key="GridCell.Tab.0.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
-    <state width="1037" height="825" key="GridCell.Tab.0.center" timestamp="1651671188613">
+    <state width="1037" height="684" key="GridCell.Tab.0.center" timestamp="1651684184849">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="825" key="GridCell.Tab.0.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651671188613" />
+    <state width="1037" height="684" key="GridCell.Tab.0.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
-    <state width="1037" height="825" key="GridCell.Tab.0.left" timestamp="1651671188613">
+    <state width="1037" height="684" key="GridCell.Tab.0.left" timestamp="1651684184849">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="825" key="GridCell.Tab.0.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651671188613" />
+    <state width="1037" height="684" key="GridCell.Tab.0.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
-    <state width="1037" height="825" key="GridCell.Tab.0.right" timestamp="1651671188613">
+    <state width="1037" height="684" key="GridCell.Tab.0.right" timestamp="1651684184849">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="825" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651671188613" />
+    <state width="1037" height="684" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
     <state width="937" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
-    <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1651668888680">
+    <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1651684184850">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="684" key="GridCell.Tab.1.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651668888680" />
-    <state width="1037" height="684" key="GridCell.Tab.1.center" timestamp="1651668888679">
+    <state width="1037" height="684" key="GridCell.Tab.1.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184850" />
+    <state width="1037" height="684" key="GridCell.Tab.1.center" timestamp="1651684184849">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="684" key="GridCell.Tab.1.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651668888679" />
-    <state width="1037" height="684" key="GridCell.Tab.1.left" timestamp="1651668888679">
+    <state width="1037" height="684" key="GridCell.Tab.1.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
+    <state width="1037" height="684" key="GridCell.Tab.1.left" timestamp="1651684184849">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="684" key="GridCell.Tab.1.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651668888679" />
-    <state width="1037" height="684" key="GridCell.Tab.1.right" timestamp="1651668888679">
+    <state width="1037" height="684" key="GridCell.Tab.1.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
+    <state width="1037" height="684" key="GridCell.Tab.1.right" timestamp="1651684184850">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state width="1037" height="684" key="GridCell.Tab.1.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651668888679" />
+    <state width="1037" height="684" key="GridCell.Tab.1.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184850" />
     <state x="-840" y="262" key="IDE.errors.dialog" timestamp="1651562629996">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
@@ -529,10 +569,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651683951902">
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2" timestamp="1651684014513">
       <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
-    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651683951902" />
+    <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684014513" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
