@@ -54,9 +54,42 @@ class StudentOperation:
 		# 点击 OK 按钮
 		self.web_driver.find_element(By.CSS_SELECTOR,
 		                             '.bootstrap-dialog-footer-buttons .btn').click()
-		
+		# time.sleep(1)
+		#
+		# # 判断是否清除文本框的信息
+		# if tips_text != '用户密码修改成功，点击确定，重新登录':
+		# 	# 点击修改密码
+		# 	self.web_driver.find_elements(By.CSS_SELECTOR,
+		# 	                              '.col-lg-12 .responsive li')[-1].click()
+		# 	# 获取文本框对象
+		# 	table_password_list_elements = self.web_driver.find_elements(By.CSS_SELECTOR,
+		# 	                                                             '.panel-body .table_password input')
+		# 	table_password_list_elements[0].clear()
+		# 	table_password_list_elements[1].clear()
+		# 	table_password_list_elements[2].clear()
+		#
 		return tips_text
+	
+	def clear_tips_info(self):
+		'''
+		清除文本框的信息
+		:return: 没有
+		'''
 		
+		'''
+		**注意** ：有些弹窗并非浏览器的alert 窗口，
+		而是**html元素**，这种对话框，只需要通过之前介绍的选择器选中并进行相应的操作就可以了。
+	    '''
+		# 点击修改密码
+		self.web_driver.find_elements(By.CSS_SELECTOR,
+		                              '.col-lg-12 .responsive li')[-1].click()
+		# 获取文本框对象
+		table_password_list_elements = self.web_driver.find_elements(By.CSS_SELECTOR,
+		                                                             '.panel-body .table_password input')
+		table_password_list_elements[0].clear()
+		table_password_list_elements[1].clear()
+		table_password_list_elements[2].clear()
+	
 		
 	def get_home_page_info(self):
 		'''
@@ -93,17 +126,17 @@ class StudentOperation:
 		page_wrapper_text = self.web_driver.find_element(By.CSS_SELECTOR,
                                                              '.opacity-level #page-wrapper .row').text
 		
-		# 判断是否清除
-		if page_wrapper_text != '用户密码修改成功，点击确定，重新登录':
-			# 修改密码
-			self.web_driver.find_elements(By.CSS_SELECTOR,
-			                              '.col-lg-12 .responsive li')[-1].click()
-			
-			table_password_list_elements = self.web_driver.find_elements(By.CSS_SELECTOR,
-			                                                             '.panel-body .table_password input')
-			table_password_list_elements[0].clear()
-			table_password_list_elements[1].clear()
-			table_password_list_elements[2].clear()
+		# # 判断是否清除
+		# if page_wrapper_text != '用户密码修改成功，点击确定，重新登录':
+		# 	# 修改密码
+		# 	self.web_driver.find_elements(By.CSS_SELECTOR,
+		# 	                              '.col-lg-12 .responsive li')[-1].click()
+		#
+		# 	table_password_list_elements = self.web_driver.find_elements(By.CSS_SELECTOR,
+		# 	                                                             '.panel-body .table_password input')
+		# 	table_password_list_elements[0].clear()
+		# 	table_password_list_elements[1].clear()
+		# 	table_password_list_elements[2].clear()
 			
 		return page_wrapper_text
 		
@@ -138,6 +171,11 @@ class StudentOperation:
 		self.web_driver.find_element(By.CSS_SELECTOR, '[ng-click="logout()"] > i').click()
 	
 	def modify_student_password(self,old_password,modif_password,confirm_password):
+		
+		# # 点击首页
+		# self.web_driver.find_element(By.CSS_SELECTOR,'.topbar-main .main-menu [href="#/home"]').click()
+		# time.sleep(1)
+
 		# 鼠标移动到此处
 		my_action = ActionChains(self.web_driver)
 		elems_main_menu_a = self.web_driver.find_elements(By.CSS_SELECTOR,
@@ -154,9 +192,12 @@ class StudentOperation:
 		
 		table_password_list_elements = self.web_driver.find_elements(By.CSS_SELECTOR,
 		                                                             '.panel-body .table_password input')
-		table_password_list_elements[0].send_keys(old_password)
-		table_password_list_elements[1].send_keys(modif_password)
-		table_password_list_elements[2].send_keys(confirm_password)
+		if old_password is not None:
+			table_password_list_elements[0].send_keys(old_password)
+		if modif_password is not None:
+			table_password_list_elements[1].send_keys(modif_password)
+		if confirm_password is not None:
+			table_password_list_elements[2].send_keys(confirm_password)
 		
 		# 确认按钮
 		self.web_driver.find_element(By.CSS_SELECTOR,
