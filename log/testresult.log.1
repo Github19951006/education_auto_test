@@ -1,0 +1,105 @@
+
+
+  ========= 测试开始 : 20220514_233143 =========
+
+
+
+>>> cases\
+
+[ suite setup ] cases\
+初始化 删除所有老师
+初始化 删除所有学生
+初始化 删除所有班级
+
+
+>>> cases\in_class_environment\
+
+[ suite setup ] cases\in_class_environment\
+创建一个班级
+20249
+
+
+>>> cases\in_class_environment\no_teacher_environment\
+
+[ suite setup ] cases\in_class_environment\no_teacher_environment\
+删除所有老师
+
+
+>>> cases\in_class_environment\no_teacher_environment\no_students_environment\
+
+[ suite setup ] cases\in_class_environment\no_teacher_environment\no_students_environment\
+初始化 删除所有学生
+
+
+>>> cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\
+
+[ suite setup ] cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\
+
+
+>>> cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py
+
+* 学生登录 修改密码为19位 - UI-StuModify001  -  2022-05-14 23:31:43
+
+[ case setup ] 学生登录 修改密码为19位 - UI-StuModify001
+
+-- 第 1 步 -- 登录学生系统 
+
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改学生密码 
+
+
+-- 第 2 步 -- 获取提示信息 
+
+
+** 检查点 **  检查错误提示信息 ---->  通过
+
+  PASS 
+
+[ case teardown ] 学生登录 修改密码为19位 - UI-StuModify001
+case teardown fail | list index out of range 
+Traceback:
+  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 139, in teardown
+    student_operation.modify_student_password(password, self.START_PASSWORD, self.START_PASSWORD)
+  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 183, in modify_student_password
+    my_action.move_to_element(elems_main_menu_a[-1]).perform()
+IndexError: list index out of range
+
+
+* 学生登录  修改密码为20位 - UI-StuModify002  -  2022-05-14 23:32:22
+
+[ case setup ] 学生登录  修改密码为20位 - UI-StuModify002
+
+-- 第 1 步 -- 登录学生系统 
+
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改学生密码 
+
+  ABORT   list index out of range 
+Traceback:
+  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 147, in teststeps
+    student_operation.modify_student_password(self.START_PASSWORD, password, confirm_password)
+  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 183, in modify_student_password
+    my_action.move_to_element(elems_main_menu_a[-1]).perform()
+IndexError: list index out of range
+
+
+[ case teardown ] 学生登录  修改密码为20位 - UI-StuModify002
+case teardown fail | list index out of range 
+Traceback:
+  File "cases\in_class_environment\no_teacher_environment\no_students_environment\web_student_操作\student_operation.py", line 139, in teardown
+    student_operation.modify_student_password(password, self.START_PASSWORD, self.START_PASSWORD)
+  File "D:\study\AutoTest_education\lib\webUI\yjyx_webui_student_operation.py", line 183, in modify_student_password
+    my_action.move_to_element(elems_main_menu_a[-1]).perform()
+IndexError: list index out of range
+
+
+* 学生登录 修改密码包含英文 - UI-StuModify003  -  2022-05-14 23:32:39
+
+[ case setup ] 学生登录 修改密码包含英文 - UI-StuModify003
+
+-- 第 1 步 -- 登录学生系统 
+

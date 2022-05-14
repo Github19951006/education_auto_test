@@ -44,12 +44,6 @@ class Case_StuModifExcept000x:
 			'name': '学生登录 确认密码为空 - UI-StuModify003',
 			'para': [None, None, None, '请输入当前使用的密码！！']
 		}
-		
-		# 备注 后续做成单独的case
-		# {
-		# 	'name': '学生登录  修改密码长度为21位 - UI-StuModify004',
-		# 	'para': ['888888', '123456789012345678901', '123456789012345678901', '新密码超过指定长度']
-		# }
 	]
 	
 	def teststeps(self):
