@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220517_234925 =========
+  ========= 测试开始 : 20220518_013931 =========
 
 
 
@@ -16,64 +16,64 @@
 
 [ suite setup ] cases\in_class_environment\
 创建一个班级
-20368
+20411
 
 
 >>> cases\in_class_environment\in_teacher_environment\
 
 [ suite setup ] cases\in_class_environment\in_teacher_environment\
 添加一个老师
-5284
+5322
 
 
->>> cases\in_class_environment\in_teacher_environment\teacher_管理\teacher_modify.py
+>>> cases\in_class_environment\in_teacher_environment\in_students_environment\
 
-* 修改老师2（修改真实名和授课班级,授课班级原来是1个班，改为两个班） - tc001052  -  2022-05-17 23:49:26
+[ suite setup ] cases\in_class_environment\in_teacher_environment\in_students_environment\
+
+-- 第 1 步 -- 创建一个学生 
+
+
+
+>>> cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理\student_add.py
+
+* 添加学生8 登录名为空 - tc002008  -  2022-05-18 01:39:32
 
   [ case execution steps ]
 
--- 第 1 步 -- 创建一个班级 
+-- 第 1 步 -- 创建一个学生 
+
+{'reason': '缺少参数`username`', 'retcode': 1}
+
+** 检查点 **  检查返回创建成功码 ---->  通过
 
 
--- 第 2 步 -- 修改老师真实名和授课班级 
+-- 第 2 步 -- 列出学生信息 
 
-<Response [500]>
+{'retlist': [{'classid': 20411, 'realname': '王五', 'username': 'wuwang', 'phonenumber': '1345183456', 'id': 2228}], 'retcode': 0}
+wuwang
 
--- 第 3 步 -- 列出老师信息 
+** 检查点 **  检查返回结果id是否一致 ---->  通过
 
-{'retlist': [{'username': 'new_teacher', 'teachclasslist': [20368], 'realname': '初始化老师', 'id': 5284, 'phonenumber': '13451813456', 'email': 'jcysdf@123.com', 'idcardnumber': '3209251983090987899'}], 'retcode': 0}
-
-** 检查点 **  检查修改后老师的信息 ---->  !! 不通过!!
-
-  FAIL    
-Traceback:
-  File "cases\in_class_environment\in_teacher_environment\teacher_管理\teacher_modify.py", line 79, in teststeps
-    CHECK_POINT('检查修改后老师的信息',res_list_teacher_json['retlist'][-1] == expected)
-  File "c:\python38\lib\site-packages\hytest\common.py", line 58, in CHECK_POINT
-    raise AssertionError()
-AssertionError
-
-
-[ case teardown ] 修改老师2（修改真实名和授课班级,授课班级原来是1个班，改为两个班） - tc001052
+  PASS 
 
 [ suite teardown ] cases\in_class_environment\in_teacher_environment\
 
 [ suite teardown ] cases\in_class_environment\
 
 
-  ========= 测试结束 : 20220517_234926 =========
+  ========= 测试结束 : 20220518_013932 =========
 
 
-  耗时    : 0.384 秒
+  耗时    : 0.415 秒
 
 
   预备执行用例数量 : 1
 
   实际执行用例数量 : 1
 
-  通过 : 0
+  通过 : 1
 
-  失败 : 1
+  失败 : 0
 
   异常 : 0
 

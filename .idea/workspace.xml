@@ -20,55 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_modify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220516_223548.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_213735.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_213853.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_213928.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_213949.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_214243.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_214311.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_214703.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_214839.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_215044.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_215057.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_215224.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_215336.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_215847.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_215948.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_220148.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_221737.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_221858.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_222141.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_222943.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_223231.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_223242.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_223550.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_224310.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_224920.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_225605.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_225714.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_230421.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_230621.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_230652.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_230745.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_230817.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_230923.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_231124.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_231335.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_231406.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_232629.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_232700.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_232713.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_234636.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_234725.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_234842.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220517_235101.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_010848.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011208.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011328.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011405.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011425.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011501.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011649.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_011731.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012113.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012532.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012538.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012603.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012745.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012753.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012815.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012823.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_012832.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013017.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013051.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013108.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013157.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013244.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013259.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013326.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013341.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013427.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013643.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013838.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013904.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_013931.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_014046.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
@@ -284,7 +270,7 @@
       <workItem from="1652541155687" duration="8000" />
       <workItem from="1652541174428" duration="5057000" />
       <workItem from="1652711705125" duration="745000" />
-      <workItem from="1652793600285" duration="9757000" />
+      <workItem from="1652793600285" duration="13105000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -587,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652545685363</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Initial commit">
+      <created>1652805794092</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1652805794092</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,12 +676,12 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2" timestamp="1652545691860">
+    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2" timestamp="1652805801071">
       <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1652289081750" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
-    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652545691860" />
+    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652805801071" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
       <screen x="-1080" y="-192" width="1080" height="1860" />

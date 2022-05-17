@@ -34,13 +34,18 @@ class studentApi:
 		payload = {
 			'vcode': g_vcode,
 			'action' : 'add',
-			'username' : username,
+			# 'username' : username,
 			'realname' : realname,
 			'gradeid' : gradeid,
             'classid' : classid,
-            'phonenumber' : phonenumber
+            # 'phonenumber' : phonenumber
 		}
 		
+		if username is not None:
+			payload['username'] = username
+		if phonenumber is not None:
+			payload['phonenumber'] = phonenumber
+			
 		# data : 表示表单格式
 		# json : 表示json格式
 		res = requests.post(g_api_url_students,data=payload)
