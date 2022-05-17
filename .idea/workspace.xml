@@ -20,9 +20,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/log/log_20220514_235057.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_modify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220516_223548.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_213735.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_213853.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_213928.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_213949.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_214243.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_214311.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_214703.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_214839.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_215044.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_215057.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_215224.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_215336.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_215847.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_215948.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_220148.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_221737.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_221858.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_222141.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_222943.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_223231.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_223242.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_223550.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_224310.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_224920.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_225605.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_225714.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_230421.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_230621.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_230652.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_230745.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_230817.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_230923.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_231124.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_231335.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_231406.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_232629.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_232700.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_232713.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_234636.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_234725.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_234842.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220517_235101.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/student_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/web_student_操作/student_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/teacher_管理/teacher_modify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_class_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_teacher_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
@@ -91,7 +137,7 @@
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\teacher_管理" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yjyx_webui_teacher_operation">
+  <component name="RunManager" selected="Python.yjyx_teacher_api">
     <configuration name="__st__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutoTest_education" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,9 +228,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.yjyx_webui_teacher_operation" />
         <item itemvalue="Python.yjyx_teacher_api" />
         <item itemvalue="Python.yjyx_class_api" />
+        <item itemvalue="Python.yjyx_webui_teacher_operation" />
         <item itemvalue="Python.__st__" />
       </list>
     </recent_temporary>
@@ -236,7 +282,9 @@
       <workItem from="1652445319607" duration="600000" />
       <workItem from="1652511196777" duration="1777000" />
       <workItem from="1652541155687" duration="8000" />
-      <workItem from="1652541174428" duration="3590000" />
+      <workItem from="1652541174428" duration="5057000" />
+      <workItem from="1652711705125" duration="745000" />
+      <workItem from="1652793600285" duration="9757000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -532,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652543306549</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Initial commit">
+      <created>1652545685363</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1652545685363</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,29 +630,33 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-710" y="642" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650474397218" />
-    <state width="1037" height="684" key="GridCell.Tab.0.bottom" timestamp="1651684184849">
-      <screen x="-1080" y="-192" width="1080" height="1860" />
+    <state width="1877" height="422" key="GridCell.Tab.0.bottom" timestamp="1652794544710">
+      <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state width="1037" height="684" key="GridCell.Tab.0.bottom/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
+    <state width="1877" height="422" key="GridCell.Tab.0.bottom/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652794544710" />
     <state width="937" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
-    <state width="1037" height="684" key="GridCell.Tab.0.center" timestamp="1651684184849">
-      <screen x="-1080" y="-192" width="1080" height="1860" />
+    <state width="1877" height="422" key="GridCell.Tab.0.center" timestamp="1652794544710">
+      <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state width="1037" height="684" key="GridCell.Tab.0.center/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
+    <state width="1877" height="422" key="GridCell.Tab.0.center/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652794544710" />
     <state width="937" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
-    <state width="1037" height="684" key="GridCell.Tab.0.left" timestamp="1651684184849">
-      <screen x="-1080" y="-192" width="1080" height="1860" />
+    <state width="1877" height="422" key="GridCell.Tab.0.left" timestamp="1652794544710">
+      <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state width="1037" height="684" key="GridCell.Tab.0.left/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
+    <state width="1877" height="422" key="GridCell.Tab.0.left/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652794544710" />
     <state width="937" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775678" />
-    <state width="1037" height="684" key="GridCell.Tab.0.right" timestamp="1651684184849">
-      <screen x="-1080" y="-192" width="1080" height="1860" />
+    <state width="1877" height="422" key="GridCell.Tab.0.right" timestamp="1652794544710">
+      <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state width="1037" height="684" key="GridCell.Tab.0.right/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1651684184849" />
     <state width="518" height="524" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650560391657" />
+    <state width="1877" height="422" key="GridCell.Tab.0.right/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652794544710" />
     <state width="937" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650646775679" />
     <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1651684184850">
       <screen x="-1080" y="-192" width="1080" height="1860" />
@@ -624,12 +683,12 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2" timestamp="1652543316981">
+    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2" timestamp="1652545691860">
       <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1652289081750" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
-    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652543316981" />
+    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652545691860" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
       <screen x="-1080" y="-192" width="1080" height="1860" />
@@ -650,9 +709,9 @@
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650558405310" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_teacher_api.coverage" NAME="yjyx_teacher_api Coverage Results" MODIFIED="1651586454019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
+    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_teacher_api.coverage" NAME="yjyx_teacher_api Coverage Results" MODIFIED="1652794315606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
     <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_webui_teacher_operation.coverage" NAME="yjyx_webui_teacher_operation Coverage Results" MODIFIED="1651671102553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/webUI" />
     <SUITE FILE_PATH="coverage/AutoTest_education$__st__.coverage" NAME="__st__ Coverage Results" MODIFIED="1650646739800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/environment_class" />
-    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_class_api.coverage" NAME="yjyx_class_api Coverage Results" MODIFIED="1651586440478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
+    <SUITE FILE_PATH="coverage/AutoTest_education$yjyx_class_api.coverage" NAME="yjyx_class_api Coverage Results" MODIFIED="1652794291678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/api" />
   </component>
 </project>

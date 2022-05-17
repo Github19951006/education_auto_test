@@ -49,15 +49,20 @@ class studentApi:
 		return res
 	
 	# 修改学生
-	def modify_students(self, studentid,realname,phonenumber):
+	def modify_students(self, studentid,realname = None,phonenumber = None):
 		
 		# 请求体内容
 		payload = {
 			'vcode': g_vcode,
-			'action': 'modify',
-			'realname': realname,
-			'phonenumber': phonenumber
+			'action': 'modify'
+			# 'realname': realname
+			# 'phonenumber': phonenumber
 		}
+		
+		if realname is not None:
+			payload['realname'] = realname
+		if phonenumber is not None:
+			payload['phonenumber'] = phonenumber
 		
 		# data : 表示表单格式
 		# json : 表示json格式

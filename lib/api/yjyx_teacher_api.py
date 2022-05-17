@@ -60,8 +60,8 @@ class teacherApi:
 		return res
 		
 	# 修改老师
-	def modify_teachers(self, teacherid, realname, subjectid,
-	 class_list_id, phonenumber, email, idcardnumber):
+	def modify_teachers(self, teacherid, realname,
+	 class_list_id, phonenumber, email, idcardnumber, subjectid = None):
 		
 		id_list = class_list_id.split(',')
 		classlist = [{"id": int(cid.strip())} for cid in id_list]
@@ -71,12 +71,15 @@ class teacherApi:
 			'vcode': g_vcode,
 			'action': 'modify',
 			'realname': realname,
-			'subjectid':subjectid,
+			# 'subjectid':subjectid,
 			'classlist':json.dumps(classlist),
 			'phonenumber':phonenumber,
 			'email':email,
 			'idcardnumber':idcardnumber
 		}
+		if subjectid is not None:
+			payload['subjectid'] = subjectid
+	
 		
 		# data : 表示表单格式
 		# json : 表示json格式
@@ -115,9 +118,10 @@ class teacherApi:
 gs_teacher = teacherApi()
 if __name__ == '__main__':
 	gs_teacher.add_teachers(
-		'yue','李牛22','5','20524',
+		'yue','李牛22','5','20269',
 		'134518156','jcysdf@123.com',
 		'3209251983090987899')
 	gs_teacher.list_teachers()
+	
 
 

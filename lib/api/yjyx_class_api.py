@@ -21,6 +21,7 @@ class classApi:
 		}
 	
 		if gradeid is not None:
+			# 字典继续添加元素
 			params['gradeid'] = gradeid
 			
 		res = requests.get(g_api_url_class, params =params)
