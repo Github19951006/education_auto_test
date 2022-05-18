@@ -35,7 +35,7 @@ class studentApi:
 			'vcode': g_vcode,
 			'action' : 'add',
 			# 'username' : username,
-			'realname' : realname,
+			# 'realname' : realname,
 			'gradeid' : gradeid,
             'classid' : classid,
             # 'phonenumber' : phonenumber
@@ -45,7 +45,8 @@ class studentApi:
 			payload['username'] = username
 		if phonenumber is not None:
 			payload['phonenumber'] = phonenumber
-			
+		if realname is not None:
+			payload['realname'] = realname
 		# data : 表示表单格式
 		# json : 表示json格式
 		res = requests.post(g_api_url_students,data=payload)

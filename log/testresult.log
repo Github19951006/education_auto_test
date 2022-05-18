@@ -1,6 +1,6 @@
 
 
-  ========= 测试开始 : 20220518_014341 =========
+  ========= 测试开始 : 20220519_011231 =========
 
 
 
@@ -16,183 +16,48 @@
 
 [ suite setup ] cases\in_class_environment\
 创建一个班级
-20413
+20492
 
 
->>> cases\in_class_environment\in_teacher_environment\
+>>> cases\in_class_environment\no_teacher_environment\
 
-[ suite setup ] cases\in_class_environment\in_teacher_environment\
-添加一个老师
-5324
-
-
->>> cases\in_class_environment\in_teacher_environment\in_students_environment\
-
-[ suite setup ] cases\in_class_environment\in_teacher_environment\in_students_environment\
-
--- 第 1 步 -- 创建一个学生 
+[ suite setup ] cases\in_class_environment\no_teacher_environment\
+删除所有老师
 
 
+>>> cases\in_class_environment\no_teacher_environment\no_students_environment\
 
->>> cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理\student_add.py
+[ suite setup ] cases\in_class_environment\no_teacher_environment\no_students_environment\
+初始化 删除所有学生
 
-* 添加学生2 - tc002002  -  2022-05-18 01:43:41
+
+>>> cases\in_class_environment\no_teacher_environment\no_students_environment\students_管理\student_list.py
+
+* 无学生时列出学生 - ListStu001  -  2022-05-19 01:12:31
 
   [ case execution steps ]
+{'retlist': [], 'retcode': 0}
 
--- 第 1 步 -- 创建一个学生 
-
-
-** 检查点 **  检查返回创建成功码 ---->  通过
-
-
--- 第 2 步 -- 列出学生信息 
-
-
-** 检查点 **  检查返回结果id是否一致 ---->  通过
+** 检查点 **  检查服务端会返回信息 ---->  通过
 
   PASS 
-
-[ case teardown ] 添加学生2 - tc002002
-
-* 添加学生3 登录名为数字 - tc002003  -  2022-05-18 01:43:41
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个学生 
-
-
-** 检查点 **  检查返回创建成功码 ---->  通过
-
-
--- 第 2 步 -- 列出学生信息 
-
-77
-
-** 检查点 **  检查返回结果id是否一致 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加学生3 登录名为数字 - tc002003
-
-* 添加学生4 登录名为特殊字符 - tc002004  -  2022-05-18 01:43:41
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个学生 
-
-
-** 检查点 **  检查返回创建成功码 ---->  !! 不通过!!
-
-  FAIL    
-Traceback:
-  File "cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理\student_add.py", line 93, in teststeps
-    CHECK_POINT('检查返回创建成功码', retcode == 1)
-  File "c:\python38\lib\site-packages\hytest\common.py", line 58, in CHECK_POINT
-    raise AssertionError()
-AssertionError
-
-
-[ case teardown ] 添加学生4 登录名为特殊字符 - tc002004
-
-* 添加学生5 登录名为特殊字符 - tc002005  -  2022-05-18 01:43:41
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个学生 
-
-
-** 检查点 **  检查返回创建成功码 ---->  通过
-
-
--- 第 2 步 -- 列出学生信息 
-
-hello
-
-** 检查点 **  检查返回结果id是否一致 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加学生5 登录名为特殊字符 - tc002005
-
-* 添加学生6 登录名为中文 - tc002006  -  2022-05-18 01:43:41
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个学生 
-
-
-** 检查点 **  检查返回创建成功码 ---->  !! 不通过!!
-
-  FAIL    
-Traceback:
-  File "cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理\student_add.py", line 153, in teststeps
-    CHECK_POINT('检查返回创建成功码', retcode == 1)
-  File "c:\python38\lib\site-packages\hytest\common.py", line 58, in CHECK_POINT
-    raise AssertionError()
-AssertionError
-
-
-[ case teardown ] 添加学生6 登录名为中文 - tc002006
-
-* 添加学生7 登录名为英文和数字 - tc002007  -  2022-05-18 01:43:42
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个学生 
-
-
-** 检查点 **  检查返回创建成功码 ---->  通过
-
-
--- 第 2 步 -- 列出学生信息 
-
-hello668
-
-** 检查点 **  检查返回结果id是否一致 ---->  通过
-
-  PASS 
-
-[ case teardown ] 添加学生7 登录名为英文和数字 - tc002007
-
-* 添加学生8 登录名为空 - tc002008  -  2022-05-18 01:43:42
-
-  [ case execution steps ]
-
--- 第 1 步 -- 创建一个学生 
-
-{'reason': '缺少参数`username`', 'retcode': 1}
-
-** 检查点 **  检查返回创建成功码 ---->  通过
-
-
--- 第 2 步 -- 列出学生信息 
-
-{'retlist': [{'classid': 20413, 'realname': '王五', 'username': 'wuwang', 'phonenumber': '1345183456', 'id': 2236}], 'retcode': 0}
-wuwang
-
-** 检查点 **  检查返回结果id是否一致 ---->  通过
-
-  PASS 
-
-[ suite teardown ] cases\in_class_environment\in_teacher_environment\
 
 [ suite teardown ] cases\in_class_environment\
 
 
-  ========= 测试结束 : 20220518_014342 =========
+  ========= 测试结束 : 20220519_011231 =========
 
 
-  耗时    : 0.925 秒
+  耗时    : 0.209 秒
 
 
-  预备执行用例数量 : 7
+  预备执行用例数量 : 1
 
-  实际执行用例数量 : 7
+  实际执行用例数量 : 1
 
-  通过 : 5
+  通过 : 1
 
-  失败 : 2
+  失败 : 0
 
   异常 : 0
 

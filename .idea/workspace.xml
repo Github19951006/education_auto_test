@@ -20,41 +20,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c9da19-7e4b-4393-b084-abba7aa9ed5c" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_010848.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011208.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011328.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011405.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011425.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011501.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011649.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_011731.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012113.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012532.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012538.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012603.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012745.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012753.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012815.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012823.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_012832.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013017.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013023.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013051.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013108.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013157.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013244.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013259.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013326.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013341.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013427.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013643.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013838.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013904.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_013931.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/log_20220518_014046.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/students_管理/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/in_class_environment/no_teacher_environment/no_students_environment/students_管理/student_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_222348.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_222356.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_222425.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_222516.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_222525.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_222529.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_223004.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_224610.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_224939.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_231929.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_233104.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_234420.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220518_235910.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_000019.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_000305.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_000430.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_000507.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_000753.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_001119.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_001219.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_001443.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_001619.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_002257.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_002327.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_002640.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log_20220519_003537.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_modify.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理/student_modify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/api/yjyx_student_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220514_205700.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220514_231921.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220514_231951.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220514_233357.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_000556.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220514_235057.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220515_001553.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220516_223548.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_213735.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_213853.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_213928.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_213949.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_214243.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_214311.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_214703.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_214839.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_215044.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_215057.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_215224.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_215336.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_215847.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_215948.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_220148.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_221737.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_011106.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_221858.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_222141.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_222943.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_223231.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_223242.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_001958.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_223550.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_224310.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_224920.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_225605.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_231955.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_225714.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_232041.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_230421.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_233543.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_230621.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_230652.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_005704.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_230745.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_230817.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_223839.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_230923.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_231124.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_235838.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_231335.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_231406.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_223850.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_232629.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_005540.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_232700.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_234100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_232713.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_234636.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_234725.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_234842.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_223613.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220517_235101.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_003621.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_010848.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_221904.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011208.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222232.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011328.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222453.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011405.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_003013.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011425.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_224210.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011501.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222510.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011649.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222502.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_011731.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_224408.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012113.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012532.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_231814.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012538.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012603.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222738.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012745.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222315.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012753.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012815.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_231701.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012823.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222337.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_012832.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_222115.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013017.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013023.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_234352.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013051.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013108.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013157.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_223457.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013244.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_223537.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013259.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013326.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013341.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013427.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013643.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_224435.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013838.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220519_003056.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013904.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_013931.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_223925.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_014046.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_233350.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log_20220518_014341.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/log_20220518_233126.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testresult.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/log/testresult.log.2" afterDir="false" />
@@ -101,26 +181,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/webUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/in_class_environment/in_teacher_environment/in_students_environment/student_管理" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理" />
+      <recent name="D:\study\AutoTest_education\lib\webUI" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment\no_students_environment" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment" />
+      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\teacher_管理" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment\teacher_管理" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\class_管理" />
       <recent name="D:\study\AutoTest_education\cases\no_class_environment\class_管理" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment" />
       <recent name="D:\study\AutoTest_education\cases\in_class_environment" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\AutoTest_education\lib\webUI" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\no_teacher_environment\no_students_environment" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\in_students_environment\student_管理" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment" />
-      <recent name="D:\study\AutoTest_education\cases\in_class_environment\in_teacher_environment\teacher_管理" />
     </key>
   </component>
   <component name="RunManager" selected="Python.yjyx_teacher_api">
@@ -270,7 +350,8 @@
       <workItem from="1652541155687" duration="8000" />
       <workItem from="1652541174428" duration="5057000" />
       <workItem from="1652711705125" duration="745000" />
-      <workItem from="1652793600285" duration="13105000" />
+      <workItem from="1652793600285" duration="22868000" />
+      <workItem from="1652893628483" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650474437734</created>
@@ -580,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652805794092</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Initial commit">
+      <created>1652809444647</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1652809444647</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,12 +764,12 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-905" y="700" key="MultipleFileMergeDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650557554779" />
-    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2" timestamp="1652805801071">
+    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2" timestamp="1652809447902">
       <screen x="-1920" y="175" width="1920" height="1020" />
     </state>
     <state x="-948" y="480" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1652289081750" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650564185246" />
-    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652805801071" />
+    <state x="-1685" y="544" key="Vcs.Push.Dialog.v2/-1920.175.1920.1020/0.0.1440.920@-1920.175.1920.1020" timestamp="1652809447902" />
     <state x="235" y="376" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-128.1080.1440.920@0.0.1920.1040" timestamp="1650647274007" />
     <state x="-747" y="661" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650817401946">
       <screen x="-1080" y="-192" width="1080" height="1860" />
